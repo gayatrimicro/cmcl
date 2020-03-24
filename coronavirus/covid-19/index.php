@@ -19,6 +19,7 @@
 
 <meta name="description" content="Contact the Crescent Medical Centre to get medical assistance if you suspect that you may have the COVID-19. Call (972) 230-8888 for a quick consultation." >
 
+<meta name="keywords" content="Coronavirus, Wuhan virus, covid19, social distancing, quarantine, coronavirus disease 2019, healthcare professionals fighting coronavirus, how coronavirus spreads, how to prevent covid 19, novel coronavirus, face masks, symptoms of coronavirus, test for coronavirus">
 <meta property="og:locale" content="en_US">
 <meta name="og:site_name" content="CMC Lancaster"/>
 <meta property="og:type" content="Website">
