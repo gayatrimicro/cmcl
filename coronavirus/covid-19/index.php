@@ -1,89 +1,4 @@
-
-<input type="hidden" name="session_data" value="">
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<style>
-       .button:hover{
-         text-decoration: none;
-      }
-      .button:focus{
-         text-decoration: none;
-      }
-      a:hover{
-         text-decoration: none;
-      }
-      a:focus{
-         text-decoration: none;
-      }
-   </style>
-  
-<!--  Show Message Start -->
-<button type="button" class="btn btn-info btn-lg message" data-toggle="modal" data-target="#message" style="display: none;">Open Modal</button>
-
-<!-- Modal -->
-<div id="message" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Thank You for your Subscription </h4>
-      </div>
-      <div class="modal-body">
-        <p></p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-
-  </div>
-</div>
-<!-- Show message End -->
-<!-- Login Page  -->
- <div id="login_page" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-
-    <!-- Modal content-->
-    <div class="modal-content log">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Login </h4>
-      </div><br>
-      <div class="modal-body">
-        <form method="post" action="https://cmclancaster.com/function.php" class="login">
-            <p class="form-row form-row-wide">
-               <label for="username">Username or email address <span class="required">*</span></label>
-               <input type="text" class="input-text" name="username" id="username" value="" />
-            </p>
-            <p class="form-row form-row-wide">
-               <label for="password">Password <span class="required">*</span></label>
-               <input class="input-text" type="password" name="password" id="password" />
-            </p>
-            
-<p><div class="g-recaptcha" data-sitekey="6Lf8C00UAAAAAHXI3n9fbwXkG4io8BtjWclq0lV3"></div></p><br>
-
-
-            <input type="hidden" name="act" value="login">
-            <p class="form-row">
-               <input type="hidden" id="_wpnonce" name="_wpnonce" value="94cf4b4fb2" /><input type="hidden" name="_wp_http_referer" value="/my-account/?v=c86ee0d9d7ed" />        <input type="submit" class="button" name="login" value="Login" />
-            </p>
-         
-         </form>
-      </div>
-      <!-- <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div> -->
-    </div>
-
-  </div>
-</div> 
-<!-- Login Page -->
- <!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-us">
    <!--<![endif]-->
    <head>
@@ -100,34 +15,30 @@
       <meta class="foundation-data-attribute-namespace">
       <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>COVID-19 | CoronaVirus | CMC Lancaster</title>
-      <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-KBTCQX6');</script>
-<!-- End Google Tag Manager -->
-      <!-- favicon & links -->
-      <link rel="shortcut icon" href="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/images/favicon.png" type="image/x-icon">
-    
-   <meta name="description" content="If you have been hurt in a car accident you need to see a doctor who treats or specializes in personal injuries. Learn how car injury doctors can help you.">
-    
+      <title>Coronavirus Information & Resources | CMC Lancaster</title>
+
+<meta name="description" content="Contact the Crescent Medical Centre to get medical assistance if you suspect that you may have the COVID-19. Call (972) 230-8888 for a quick consultation." >
+
+<meta property="og:locale" content="en_US">
+<meta name="og:site_name" content="CMC Lancaster"/>
 <meta property="og:type" content="Website">
-<meta property="og:title" content="Car Injury Doctors | Auto Accidents Injury | CMC Lancaster">
-<meta property="og:description" content="If you have been hurt in a car accident you need to see a doctor who treats or specializes in personal injuries. Learn how car injury doctors can help you.">
-<meta property="og:url" content="https://cmclancaster.com/auto-accidents/">
-<meta property="og:site_name" content="CMC Lancaster">
+<meta property="og:title" content="Coronavirus Information & Resources | CMC Lancaster">
+<meta property="og:description" content="Contact the Crescent Medical Centre to get medical assistance if you suspect that you may have the COVID-19. Call (972) 230-8888 for a quick consultation.">
+<meta property="og:url" content="https://cmclancaster.com/coronavirus/covid-19">
+<meta property="og:image" content="">
 
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Car Injury Doctors | Auto Accidents Injury | CMC Lancaster">
-<meta name="twitter:description" content="If you have been hurt in a car accident you need to see a doctor who treats or specializes in personal injuries. Learn how car injury doctors can help you." >
-      
+<meta name="twitter:title" content="Coronavirus Information & Resources | CMC Lancaster">
+<meta name="twitter:description" content="Contact the Crescent Medical Centre to get medical assistance if you suspect that you may have the COVID-19. Call (972) 230-8888 for a quick consultation.">
+<meta name="twitter:image" content="">
+<meta name="twitter:url" content="https://cmclancaster.com/coronavirus/covid-19">
 
- <link rel="canonical" href="https://cmclancaster.com/auto-accidents/">
- <link rel="alternate" href="https://cmclancaster.com/auto-accidents/" hreflang="en-us" />	
+<meta name="robots" content="index, follow" />
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="canonical" href="https://cmclancaster.com/coronavirus/covid-19">
+<link rel="alternate" href="https://cmclancaster.com/coronavirus/covid-19" hreflang="en-us" />
  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"></script>
 
       <style type="text/css">
@@ -498,6 +409,11 @@ src="https://www.facebook.com/tr?id=384637232098666&ev=PageView
 &noscript=1"/>
 </noscript>
 <!-- End Facebook Pixel Code -->
+<style type="text/css">
+  .content-block-content-right-image .content-block-content, .content-block-left-image-content .content-block-content {
+      padding: 50px 50px 50px 50px !important;
+  }
+</style>
    </head>
    <body class="page-template page-template-template-landing page-template-template-landing-php page page-id-91 page-parent our-story">
       <!-- Google Tag Manager (noscript) -->
@@ -544,32 +460,77 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                      
                </div>
             </section>
-            <section class="page-content">
+            <!-- <section class="page-content">
                <div class="row">
                   <div class="column large-10 large-centered">
                      <ul class="breadcrumbs">
                         <li><a href="../../">Home</a> </li>
-                       <!--  <li class="active">Services</li> -->
                         <li class="active"> Corona Virus - COVID-19 </li>
                         
                      </ul>
                      <br>
                     
-                    <p class="text-center-content" >After A Car Accident, you need to contact a doctor that specializes in accident injury care. Our team of car accident injury medical doctors, chiropractors and attorneys can help you!
+                    <p class="text-center-content" >Call (972) 230-8888 for quick medical assistance, Monday through Sunday 24/7 if you feel that you have been experiencing cough or difficulty breathing and a fever. 
                       
                       
 
-                      <!-- <img src="../../assets/images/imedlogo.png" height="150" width="150" class="element" style="float: right;margin-top: 20px;"> --><br></p><br>
+                     <br></p><br>
                     <p style="margin-top: 20px;">
-                        <!-- <a href="../../assets/pdf/Referral IMED Physician Form 2.pdf" target="_blank" class="button secondary small btn-mt element-btn mob-mt" style="float: right;" >Physician Referral</a> -->
+                       
                      </p>
                     
                   </div>
                   
                </div>
 
-            </section>
-            <section class="content-block content-block-left-image-content  grey-bg" data-equalizer>
+            </section> -->
+            <!-- Edit regions/_content-block-image-content -->
+          
+<section class="page-content" style="padding: 50px 0 0px 0 !important;">
+               <div class="row">
+                  <div class="column large-10 large-centered">
+
+<ul class="breadcrumbs">
+                        <li><a href="../../">Home</a> </li>
+                        <li class="active">Corona Virus - COVID-19</li>
+                        
+                     </ul>
+
+
+
+          <p class="justify-txt">
+                        <strong>What are the symptoms of the new Coronavirus (2019-nCoV)?  </strong></p>
+
+                        <p class="justify-txt">
+                          A newly infected person may experience symptoms 2-14 days after exposure to the virus. The symptoms of the COVID-19 are as follows - 
+                        </p>
+                        <ul>
+                          <li>Fever </li>
+                          <li>Cough</li>
+                          <li>Shortness of Breath (severe cases)</li>
+                          <li>Pain or pressure in the chest</li>
+                          <li>Bluish lips or face</li>
+                          <li>Pneumonia (a few very severe cases)</li>
+                          <li>Body aches and pains </li>
+                          <li>Diarrhoea, runny nose, and nausea (a very few severe cases)</li>
+                        </ul>
+
+                        <p class="justify-txt">The Coronavirus disease may affect different people to different degrees. Some people may experience mild symptoms like fever and cough while others who have been affected severely may experience difficulty breathing and diarrhoea.
+                        </p>
+
+                        <p class="justify-txt"><strong>
+                          Call <a href="tel:(972) 230-8888">(972) 230-8888 </a> for quick medical assistance, Monday through Sunday 24/7 if you feel that you have been experiencing cough or difficulty breathing and a fever.
+                          </strong>
+                        </p>
+                        <br>
+
+
+</div>
+</div>
+</section>
+
+
+ <section class="content-block content-block-left-image-content  grey-bg" data-equalizer>
                <div class="content-block-content-wrap" data-equalizer-watch>
                   <div class="content-block-content">
                      <!-- <p class="title">We act as a resource for the following questions below: </p> -->
@@ -579,120 +540,55 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
                                          
-                     <p>A Car Accident can cause a variety of injuries including:</p>
+                     <p><strong>How does the Coronavirus spread?</strong></p>
 
                    <p>
-                    <ul style="margin-left: 3.1rem !important;">  
-                        <li> Whiplash Injury </li>
-                        <li>Back Pain </li>
-                        <li>Knee Pain </li>
-                        <li>Wrist Pain </li>
-                        <li>Neck Pain </li>
-                        <li>Headaches</li>
-                        <li>Shoulder Pain</li>
-                        <li>Ankle Pain</li>
+                    The best way to protect yourself is to know how the Coronavirus spreads -</p>
+
+                    <ul>
+                      <li>It spreads by person-to-person contact when people are closer than 6 feet through respiratory droplets.</li>
+                      <li> Coughing and sneezing are the most common way the virus spreads because an uninfected person inhales these droplets through the nose or mouth.</li>
                     </ul>
+                     
+                   
+
+                    <p><strong>This is why it's absolutely necessary to maintain a distance of at least 7 feet from other people. This is called social distancing.</strong>
+
                   </p>
                       
                      </div>
                   </div>
                </div>
                <div class="content-block-image" style="
-                  background-image: url('../../assets/images/shutterstock_1426522847.jpg');
+                  background-image: url('../../assets/images/covid-fever.jpg');
                   background-position: 10% 70%;
                   background-size:cover;"
                   data-equalizer-watch
                   ></div>
             </section>
-            <!-- Edit regions/_content-block-image-content -->
-          
-<section class="page-content" style="padding: 50px 0 0px 0 !important;">
-               <div class="row">
-                  <div class="column large-10 large-centered">
-
-
-
-
-
-          <p class="justify-txt">
-                        Being in a car accident can be one of the most terrifying and overwhelming experiences a person lives through.  </p>
-
-                        <p class="justify-txt">People who survive automobile accidents must deal with the physical, financial, and emotional damages following their accident, and treating these injuries can be a difficult process.  </p>
-
-                        <p class="justify-txt">That's where we can help!
-                        </p>
-                       
-                       <ul>
-                        <li>
-                      <p class="justify-txt">Going to see a car accident doctor first, who specializes in accident care after you have been injured is essential. </p> 
-                      </li> 
-                      
-                       <li>
-                      <p class="justify-txt">Seeing a trusted physician gives you the necessary documentation of your injuries so your lawyer can prove you were injured in the accident and seek compensation on your behalf.</p>
-                    </li>
-                       
-                        <li>
-                      <p class="justify-txt">Without the proper documentation, you may not even have a personal injury case and you will be holding the bill for your medical care.</p>
-                    </li>
-                     
-                       <li>
-                      <p class="justify-txt">Make sure that doesn't happen, give our team a call today to set up a consultation.</p>
-                    </li>
-                    </ul>
-                      <br>
-
-
-</div>
-</div>
-</section>
-
-
-
+           
 
 
            <!-- new section -->
 <section class="content-block content-block-content-right-image grey-bg" data-equalizer>
                <div class="content-block-content-wrap" data-equalizer-watch>
                   <div class="content-block-content">
-                     <!-- <p class="title">We act as a resource for the following questions below: </p> -->
-
-                     <!-- <div class="text">
-                     <p><span style="color: #000;">Locations:</span></p>
-                    
-                     <p>2700 W Pleasant Run Road, Suite 340<br>Lancaster, TX 75146</p>
-
-                     <p>13988 Diplomat Drive, Suite 100<br>Farmers Branch, TX 75234</p>
-
-                     <p>3600 W 7th Street, Suite A<br>Fort Worth, TX 76107</p>
-
-                     <p>4311 Andrews Highway<br>
-                        Midland, TX 79703</p>
-
-                      <p>802 W Lampasas St,<br>
-                          Ennis, TX 75119
-                      </p>
-                           
-                          
-                     </div> -->
+                   
 
 
-                     <div class="text" style="text-align: justify;">
-                     <!-- <p><span style="color: #000;">Locations:</span></p> -->
-                    
-                     <p>Never wait to see a doctor after your accident because it could leave you powerless against the insurance companies. Waiting to seek medical care from a doctor or a chiropractor after you have been injured in a car accident can have devastating effects on your injury case by leaving a gap in your care. </p>
+                     <div class="text">
+                      <p><strong>How to protect yourself from the Coronavirus?</strong></p>
+                      <p>The best way to protect yourself from the 2019-nCoV is to clean your hands. </p>
+                      <ul>
+                        
+                        <li>Wash your hands for 20 secs with soap and clean water as often as possible. </li>
+                        <li>Use a hand sanitiser with at least 60% alcohol content and rub your hands together until they feel dry.</li>
+                        <li>Always remember not to touch your mouth, nose, eyes and ears with unwashed hands.</li>
+                        <li>Maintain a distance of at least 6 feet from other people and avoid close contact.</li>
 
-                     <p>A gap in medical care of treatment is a term that is widely used in the insurance industry. An insurance adjuster will look at is how rapidly you sought for medical attention after your car accident. Even minor injuries should be accounted for and documented because in time they may lead to chronic pain. It's best to see your doctor immediately following your auto accident. </p>
-
-                     <p>Research shows that you can suffer injuries even if you have limited damage done to your car. If you have suffered a minor or major accident and feel any level of discomfort, schedule an appointment to see a doctor right away. The quicker you go see the doctor, the quicker you can recover from your injuries and protect yourself from the insurance companies.</p>
-
-                     <!-- <p>4311 Andrews Highway<br>
-                        Midland, TX 79703</p>
-
-                      <p>802 W Lampasas St,<br>
-                          Ennis, TX 75119
-                      </p> -->
-                           
-                          
+                      </ul>
+                      
+                      
                      </div>
 
 
@@ -700,7 +596,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   </div>
                </div>
                <div class="content-block-image" style="
-                  background-image: url('../../assets/images/Accident-Injuries.jpeg');
+                  background-image: url('../../assets/images/covid-handshake.jpg');
                   background-position: 10% 70%;
                   background-size:cover;"
                   data-equalizer-watch>
@@ -710,61 +606,87 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
+<section class="page-content" style="padding: 50px 0 0px 0 !important;">
+               <div class="row">
+                  <div class="column large-10 large-centered">
+
+<p class="justify-txt">
+                        <strong>How to protect others from the Coronavirus, if you’re infected? </strong></p>
+
+                        <p class="justify-txt">
+                          You can take these measures to make sure that you protect others if you’re infected -
+                        </p>
+                        
+                        <ul>
+                          <li>Always stay home if you’re sick. Remember, if you go outside, you may risk spreading the virus to other people.</li>
+                          <li>Whenever you cough or sneeze, cover your nose and mouth with a tissue and throw it in the trash. Wash your hands immediately or use a hand sanitiser.</li>
+                          <li>You should wear a face mask to protect others around you, especially your caretakers.</li>
+                          <li>Always clean and disinfect everyday surfaces like doorknobs, tables, phones, laptops, toilets etc.</li>
+                        </ul>
+
+                        
+                        
+                        
+
+                        <br>
+
+
+</div>
+</div>
+</section>
 
 <!--  custom division starts here!-->
 
 <section class="content-block content-block-content-right-image grey-bg d-flex-flex" data-equalizer>
                <div class="content-block-content-wrap" data-equalizer-watch>
                   <div class="content-block-content">
-                     <!-- <p class="title">We act as a resource for the following questions below: </p> -->
-
-                     <!-- <div class="text">
-                     <p><span style="color: #000;">Locations:</span></p>
                     
-                     <p>2700 W Pleasant Run Road, Suite 340<br>Lancaster, TX 75146</p>
+                      <div class="text">
+                      <p><strong>How can you get tested for Coronavirus?</strong></p>
+                      <p>The official test for identifying the COVID-19 is the Real Time Reverse Transcriptase PCR (RT-PCR) Diagnostic Panels. This test provides accurate results within 4-6 hours. Your local medical practitioner for tests provided by the CDC or commercial manufacturers. </p>
 
-                     <p>13988 Diplomat Drive, Suite 100<br>Farmers Branch, TX 75234</p>
+                      <p>You should get tested for the Coronavirus if you exhibit any symptoms for the Coronavirus. Most people recover at home itself since they show mild symptoms and there’s no cure to the disease yet. </p>
+                      <p><strong>Call us at <a href="tel:(972) 230-8888"> (972) 230-8888</a> for quick medical assistance, Monday through Sunday 24/7 if you feel that you have been experiencing cough or difficulty breathing and a fever. </strong></p>
+                      
+                      
+                      
+                     </div>
 
-                     <p>3600 W 7th Street, Suite A<br>Fort Worth, TX 76107</p>
+                  </div>
+               </div>
+               <div class="content-block-image" style="
+                  background-image: url('../../assets/images/covid-positive.jpg');
+                  background-position: 10% 70%;
+                  background-size:cover;"
+                  data-equalizer-watch>
+                    
+                  </div>
+            </section>
 
-                     <p>4311 Andrews Highway<br>
-                        Midland, TX 79703</p>
-
-                      <p>802 W Lampasas St,<br>
-                          Ennis, TX 75119
-                      </p>
-                           
-                          
-                     </div> -->
 
 
-                     <div class="text" style="text-align: justify;">
-                     <!-- <p><span style="color: #000;">Locations:</span></p> -->
-                     <h3>How much will a car accident cost me?</h3>
-                     <ul>
-                      <li>
-                     <p>Most automotive accident doctor's work on what is called a medical lien. A medical lien means the doctor waits to get paid until your case settles. This means there is no upfront cost to you whatsover and you can start getting the care you deserve for your injuries immediately.  </p>
-                   </li>
-                      <li>
-                     <p>Some states have what is called personal injury protection. PIP, allows you to get medical care or treatment for your injury and pays what the insurance company deems as necessary Medical care. </p>
-                   </li>
-                     
-                     <li>
-                     <p>Other states allow you to use medical payments on your auto policy to help pay for your care. </p>
-                     </li>
-                       
-                       </li>
-                     <p>While no one ever wants to be in an automobile accident, it is important to know how to proceed with treating your injuries should you ever be involved in one. Visiting an automotive accident physician is always one of the first things you should do, as these healthcare professionals specialize in treating many of the most common automobile accident-related injuries. </p>
-                   </li>
-                     </ul>
-                     <!-- <p>4311 Andrews Highway<br>
-                        Midland, TX 79703</p>
+<section class="content-block content-block-content-right-image grey-bg" data-equalizer>
+               <div class="content-block-content-wrap" data-equalizer-watch>
+                  <div class="content-block-content">
+                   
 
-                      <p>802 W Lampasas St,<br>
-                          Ennis, TX 75119
-                      </p> -->
-                           
-                          
+
+                     <div class="text">
+                    <p><strong>Who is at higher risk of getting severe complications on being infected by the Coronovirus?</strong></p>
+                    <p>The individuals at the most risk of serious complications from the 2019-nCoV are the elderly and people who have serious underlying conditions like blood pressure, diabetes, asthma etc. </p>
+
+                    <p>People who are at higher risk are -</p>
+                    
+                    <ul>
+                      <li>Who are older than 65 years.</li>
+                      <li>People living in a nursing home or care facility.</li>
+                      <li>People who have moderate to severe respiratory diseases like asthma.</li>
+                      <li>People who have weakened immune systems like those who suffer from HIV or cancer.</li>
+                      <li>People with underlying diseases like liver disease, blood pressure and diabetes or obesity.</li>
+                    </ul>
+                    
+
+
                      </div>
 
 
@@ -772,13 +694,181 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   </div>
                </div>
                <div class="content-block-image" style="
-                  background-image: url('../../assets/images/21.jpg');
+                  background-image: url('../../assets/images/covid-nose.jpg');
                   background-position: 10% 70%;
                   background-size:cover;"
                   data-equalizer-watch>
                     
                   </div>
             </section>
+
+
+           <style type="text/css">
+             
+.faq-accordian a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+ .faq-accordian h1 {
+  font-weight: 400;
+  font-size: 2.5em;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+ .faq-accordian ul {
+  list-style: none;
+  padding: 0;
+}
+
+.faq-accordian ul .inner {
+  padding: 2rem;
+  overflow: hidden;
+  display: none;
+}
+
+ .faq-accordian ul li {
+  margin: 0.5em 0;
+}
+
+
+.faq-accordian ul li a.toggle {
+      width: 100%;
+    display: block;
+    background: rgb(204, 204, 204);
+    color: #232323;
+    padding: 0.75em;
+    border-radius: 0.15em;
+    transition: background 0.3s ease;
+}
+
+
+.faq-accordian ul li a.toggle:hover {
+  background: rgb(204, 204, 204, 0.5);
+}
+
+           </style>
+
+              <section class="page-content faq-accordian" style="padding: 0px 0 50px 0 !important;">
+               <div class="row">
+                  <div class="column large-10 large-centered">
+                      <h1 style="text-align: center;">
+                        Frequently Asked Questions 
+                      </h1>
+
+<ul class="accordion">
+  <li>
+    <a class="toggle" href=#>How to protect your family during the Coronavirus pandemic?
+</a>
+    <p class="inner"><strong>
+      Here are a few guidelines for protecting a family during the Coronavirus pandemic -</strong><br><br>
+
+
+        <strong>-</strong>  Get together with your neighbours online to discuss a plan of action on spreading awareness regarding Coronavirus.<br><br>
+        <strong>-</strong>  Get in touch with your local healthcare providers, support and resources to have them on your speed dial. <br><br>
+        <strong>-</strong>  Update your emergency contacts list including your family members, neighbors, friends, healthcare services employers, teachers and other community resources. <br><br>
+        <strong>-</strong>  Convert a room of your house to take care of the sick and elderly members of your family. 
+</p>
+  </li>
+
+  <li>
+    <a class="toggle" href=#>How to manage your stress and anxiety throughout the pandemic?
+</a>
+    <p class="inner">
+      Having a full-scale pandemic can be extremely stressful. People around you are fearful, panicked, and anxious.<br>
+
+      But this is the time when you should be strong for your family and friends. The best way to manage your stress and anxiety is to stay in touch with your loved ones via social media and phone calls.<br><br>
+
+      <strong>Here are a few tips to manage stress and anxiety -</strong><br><br>
+
+        <strong>-</strong> Eat healthy food and drink plenty of water on a regular basis.<br><br>
+        <strong>-</strong> Get a lot of sleep to keep anxiety at bay.<br><br>
+        <strong>-</strong> Channel your anxiety into healthy habits instead of using alcohol, drugs or addictions as coping mechanisms. <br><br>
+        <strong>-</strong> You can use this time to catch up on reading, exercising, meditating, and invest time in your hobbies. <br><br>
+        <strong>-</strong> Take part in relief efforts of providing food, clothing, and essential care to the homeless and less fortunate people.<br><br>
+
+
+        <strong>Call us at <a href="tel:(972) 230-8888"> (972) 230-8888</a> for quick medical assistance, Monday through Sunday 24/7 if you feel that you have been experiencing cough or difficulty breathing and a fever. </strong><br><br>
+
+
+        Other emergency helpline numbers for the mentally ill -<br><br>
+
+        <strong>-</strong> The Disaster Distress Helpline Call <a href="tel:1-800-985-5990"> 1-800-985-5990</a><br><br>
+
+        <strong>-</strong> National Domestic Violence Helpline if you’re quarantined with abusive people Call <a href="tel:1-800-799-7233"> 1-800-799-7233</a> and TTY <a href="tel:1-800-787-3224"> 1-800-787-3224</a>
+
+</p>
+  </li>
+
+
+  <li>
+    <a class="toggle" href=#>How to handle your children while the school is closed?
+    </a>
+        <p class="inner"><strong>
+          With the spread of the Coronavirus, the school’s out and the children are at home safely. The best practices to handle children during this trying time are -</strong><br><br>
+
+
+
+
+
+
+
+            <strong>-</strong>  Limit social interactions as  much possible. Discourage play time and spring break travel.<br><br>
+            <strong>-</strong>  Children may present with mild symptoms but can still be infectious enough to produce severe complications in the elderly. So discourage them from spending time with their grandparents.<br><br>
+            <strong>-</strong>  Create a flexible schedule for home learning, and have consistent bedtimes.<br><br>
+            <strong>-</strong>  Make learning fun with puzzles, painting, drawing and encouraging children to write down their thoughts in a journal. <br><br>
+            <strong>-</strong>  Help your children exercise and stay healthy during the quarantine process. <br><br>
+            <strong>-</strong>  Make sure that your children wash their hands regularly and maintain hygiene. 
+    </p>
+  </li>
+
+  <li>
+    <a class="toggle" href=#>What precautions should you take regarding travel during this pandemic?
+    </a>
+        <p class="inner">
+          The CDC recommends restricting any non-essential travel. If your travel plans aren’t absolutely necessary, postpone your travels.<br><br>
+
+          For more information, visit the CDC’s resources for travel notices -
+          <strong><a href="www.cdc.gov/coronavirus/2019-ncov/travelers/index.html.">www.cdc.gov/coronavirus/2019-ncov/travelers/index.html.</a></strong> <br><br>
+
+          You should defer from air travel and going on cruise ships. Always wear a face mask during your travels to prevent infections, and practice appropriate hygiene by washing your hands frequently.<br><br>
+
+          All countries are conducting exit screening for passengers leaving and entering their country. Monitor your health frequently and practice social distancing when you return to your home country.<br><br>
+
+
+
+    </p>
+  </li>
+
+
+  
+ 
+</ul>
+
+                  </div>
+                </div>
+              </section>
+              <script type="text/javascript">
+                 $('.toggle').click(function(e) {
+
+                  e.preventDefault();
+                
+                  let $this = $(this);
+                
+                  if ($this.next().hasClass('show')) {
+                      $this.next().removeClass('show');
+                      $this.next().slideUp(350);
+                  } else {
+                      $this.parent().parent().find('li .inner').removeClass('show');
+                      $this.parent().parent().find('li .inner').slideUp(350);
+                      $this.next().toggleClass('show');
+                      $this.next().slideToggle(350);
+                  }
+              });
+              </script>
 
 <!-- custom division ends here !-->
 
@@ -830,18 +920,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                <div class="row">
                   <div class="content-block-content small-10 large-8 small-centered column get_in_touch_content" >
                      
-                     <p class="title git_footer">Contact a COVID-19 Helpdesk</p>
+                     <p class="title git_footer">Call us at<a href="tel:(972) 230-8888" class="clr"> (972) 230-8888</a><br></p>
+                     <p> for quick medical assistance, Monday through Sunday 24/7 if you feel that you have been experiencing persistent cough or difficulty breathing and a fever. </p>
                      <div class="text">
                         <!-- <p class="new4 git_sub_ttl">.
 
                         </p> -->
-                      <p class="new4 new3 git_sub_ttl" style="line-height: 1.5 !important;">
-                        Call: <a href="tel:(877) 880-9550" class="clr">(877) 880-9550</a> &nbsp;<span class="newline_mail">
-                          <!-- <span>FAX:</span> <a  class="clr">214-888-4450</a> </span>  -->
+                      <!-- <p class="new4 new3 git_sub_ttl" style="line-height: 1.5 !important;">
+                        Call: <a href="tel:(972) 230-8888" class="clr">(972) 230-8888</a> &nbsp;<span class="newline_mail">
                           <br/>
-                          <span style="white-space: pre;" >Email:<!-- </span> --> <a href="mailto:autoinjury@cmclancaster.com" class="clr">autoinjury@cmclancaster.com</a> </span>
+                          <span style="white-space: pre;" >Email: <a href="mailto:autoinjury@cmclancaster.com" class="clr">autoinjury@cmclancaster.com</a> </span>
 
-                      </p><br>
+                      </p> --><br>
 
 
                         <p>
