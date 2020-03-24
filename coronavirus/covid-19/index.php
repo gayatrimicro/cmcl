@@ -38,6 +38,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <link rel="canonical" href="https://cmclancaster.com/coronavirus/covid-19">
 <link rel="alternate" href="https://cmclancaster.com/coronavirus/covid-19" hreflang="en-us" />
  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"></script>
@@ -441,7 +442,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <div class="row">
                   <div class="column">
                      <div class="page-banner-content">
-                        <h1><span class="dotted-underline">Coronavirus Disease 2019-20
+                        <h1><span class="dotted-underline">Novel Coronavirus 
 </span></h1>
                         <p>
                         
