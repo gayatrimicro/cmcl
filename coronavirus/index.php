@@ -568,10 +568,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                      <div class="text">
                       <p class="dark-blue"><strong>Contact your healthcare provider if you:</strong></p>
-                      <p>Develop symptoms and/or have been in close contact with a person known to have COVID-19 (Coronavirus) or live in or have recently traveled from an area with ongoing spread of COVID-19 (Coronavirus). Call ahead before you go to a doctor's office or emergency room. Tell them about your recent travel and your symptoms.
+                      <p>Develop symptoms and/or have been in close contact with a person known to have COVID-19 (Coronavirus) or live in or have recently traveled from an area with ongoing spread of COVID-19 (Coronavirus). Call ahead before you go to a doctor's office or emergency room. Tell them about your recent travel and your symptoms.</p>
                       
 
-                      For the most up to date information, visit the CDC's website.</p>
+                      <p>For the most up to date information, visit the CDC's website.</p>
                       
                       
                      </div>
@@ -581,7 +581,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   </div>
                </div>
                <div class="content-block-image" style="
-                  background-image: url('../assets/images/covid-handshake.jpg');
+                  background-image: url('../assets/images/covid-bus.jpg');
                   background-position: 10% 70%;
                   background-size:cover;"
                   data-equalizer-watch>
@@ -589,7 +589,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   </div>
             </section>
 
-<!-- <section class="pop_form_cont_blk content-block content-block-full-backdrop  show-icon get_in_touch" style="
+<section class="pop_form_cont_blk content-block content-block-full-backdrop  show-icon get_in_touch" style="
                background-image: url('../assets/images/cmcl-lab.jpg');"
                >
                <div class="row">
@@ -603,24 +603,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       display: inline-block;
                       float: left;
                     }
+
                     @media (max-width: 600px){
                       .column-4{
                         width: 100%;
                       }
+                      .row{
+                        padding: 10px;
+                      }
                     }
                   </style>
-                  <div class="row">
+                  <div class="row dotted-underline">
                     <div class="column-4">
-                      <img src="../assets/images/virus.png" style="">
-                      <h1>Demo</h1>
+                      <img src="../assets/images/virus.png" style="width: 100px;display: inline-block;float: left;">
+                      <h3 style="padding-top:20px;padding-left:20px;display: inline-block;float: left;">High Fever</h3>
                     </div>
                     <div class="column-4">
-                      <img src="../assets/images/virus.png" style="">
-                      <h1>Demo</h1>
+                      <img src="../assets/images/virus.png" style="width: 100px;display: inline-block;float: left;">
+                      <h3 style="padding-top:20px;padding-left:20px;display: inline-block;float: left;">Dry Cough</h3>
                     </div>
                     <div class="column-4">
-                      <img src="../assets/images/virus.png" style="">
-                      <h1>Demo</h1>
+                      <img src="../assets/images/virus.png" style="width: 100px;display: inline-block;float: left;">
+                      <h3 style="padding-top:20px;padding-left:20px;display: inline-block;float: left;">Shortness of Breath</h3>
                     </div>
                   </div>
 
@@ -633,7 +637,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                  </div>
 
              </section>
- -->
+
 
 
 
