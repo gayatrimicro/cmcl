@@ -598,6 +598,9 @@ jQuery(document).ready(function($) {
 //                 '</li>'+
 // '</ul>'+
 '</div>' +
+        '</div>'+
+        ' <div class="menu-wrap" style="background-color:#ff7f30;width:100vw;position: absolute;left: 0;">' +
+        '<h5 style="padding-left:25px;text-transform:capitalize;"><a href="#" style="color:#fff;"><i class="fa fa-exclamation-triangle" style="padding:0px 10px;"></i>COVID-19 : <span style="color:#fff;">What you need to know about the current outbreak of 2019 novel coronavirus</span></a></h5>' +
         '</div>';
 
         // "<script type='text/javascript'>function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:'en',layout:google.translate.TranslateElement.FloatPosition.TOP_LEFT},'google_translate_element')}function triggerHtmlEvent(e,t){var n;document.createEvent?((n=document.createEvent('HTMLEvents')).initEvent(t,!0,!0),e.dispatchEvent(n)):((n=document.createEventObject()).eventType=t,e.fireEvent('on'+n.eventType,n))}jQuery('.lang-select').click(function(){console.log('clicked');var e=jQuery(this).attr('data-lang');jQuery('.goog-te-combo').val(e),location.reload()});</script>";
@@ -978,7 +981,12 @@ jQuery(document).ready(function($) {
         '</div>' +
         '</div>' +
         '</div>' +
-        '</div>';
+        '</div>' +
+        '<div class="row" style="background-color:#ff7f30">' +
+        '<div class="column" style="padding:10px;">' +
+        '<marquee><a href="#" style="font-size:20px;color:#fff;"><i class="fa fa-exclamation-triangle" style="padding:0px 10px;"></i>COVID-19 : What you need to know about the current outbreak of 2019 novel coronavirus</a></marquee>'
+        '</div>' +
+        '</div>' ;
         // "<script type='text/javascript'>function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:'en',layout:google.translate.TranslateElement.FloatPosition.TOP_LEFT},'google_translate_element')}function triggerHtmlEvent(e,t){var n;document.createEvent?((n=document.createEvent('HTMLEvents')).initEvent(t,!0,!0),e.dispatchEvent(n)):((n=document.createEventObject()).eventType=t,e.fireEvent('on'+n.eventType,n))}jQuery('.lang-select').click(function(){console.log('clicked');var e=jQuery(this).attr('data-lang');jQuery('.goog-te-combo').val(e),location.reload()});</script>";
     $('#mobile').html(navbar);
 

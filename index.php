@@ -779,13 +779,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
            <header class="header desktop-menu desktop-menu-mega" id="main">
         
         </header>
+        
         <header class="header mobile-menu" id="mobile">
         </header>
+
         <div id="google_translate_element"></div>
+
       </div>
+
      <!--  language translator header end -->
          <main id="main" class="main-content home-content" role="main">
             <section class="page-banner page-banner-landing full-page" style="min-height: 427px;">
+
                <div class="bg bg-image" style="background-image: url('assets/images/welcome_home.jpg');
                   background-position: 49% 20px;background-repeat: no-repeat;background-size: cover;"></div>
                <div class="row">
@@ -2140,8 +2145,8 @@ $('document').ready(function () {
       <script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/owl.carousel.min.js"></script>
       <script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/video.js"></script>
       <script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/bigvideo.js"></script>
-      <script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/main.js"></script>
-      <!-- <script src="assets/js/main.js"></script> -->
+      <!-- <script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/main.js"></script> -->
+      <script src="assets/js/main.js"></script>
 
       <script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/hero-carousel.js"></script>
       <script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/mobile-menu.js"></script>
