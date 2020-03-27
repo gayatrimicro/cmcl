@@ -1218,7 +1218,7 @@ tbody{
                <div class="row">
                   <div class="content-block-content small-10 large-8 small-centered column get_in_touch_content" >
                      
-                     <p class="title git_footer">Call us at<a href="tel:(972) 230-8888" class="clr"> <br class="mob-only">(972) 230-8888</a><br></p>
+                     <p class="title git_footer">Call us at<a href="tel:(972) 230-8888" class="clr"><span style="font-size: 2rem;">(972) 230-8888</span></a><br></p>
                      <p> For immediate medical attention from your local emergency healthcare provider</p>
                      <div class="text">
                         <!-- <p class="new4 git_sub_ttl">.
