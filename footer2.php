@@ -751,7 +751,7 @@ $(document).ready(function() {
 
 
 
-<div class="row text-left">
+<div class="row text-center">
 <div class="col-md-6 col-sm-12 col-lg-4 col-xl-4">
 
     <div class="inner-address">

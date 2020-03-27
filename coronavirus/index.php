@@ -613,7 +613,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     .box-img{
                       padding: 2rem 0rem;
                     }
-
+                    .mob-only{
+                        display: none !important;
+                      }
 
                     @media (max-width: 600px){
                       .column-4, .column-40{
@@ -621,6 +623,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       }
                       .row{
                         padding: 10px;
+                      }
+                      .mob-only{
+                        display: block !important;
                       }
                     }
                   </style>
@@ -751,6 +756,11 @@ tbody{
 .lg-font{
   font-size: large !important;
 }
+@media (max-width: 600px){
+  .text-mob-center{
+    text-align: center !important;
+  }
+}
 </style>
 <section class="content-block content-block-left-image-content  grey-bg" data-equalizer style="padding: 2rem 0rem;">
    <div class="">
@@ -770,42 +780,42 @@ tbody{
                      </div>
                   </div> -->
                   <div class="table-responsive bg-blue">
-                     <table class="table bg-blue">
-                        <thead>
+                     <table class="table bg-blue text-mob-center">
+                        <thead class=" text-mob-center">
                            <tr>
-                              <th colspan="2" class="text-uppercase new-size bg-blue x-lg-font">ALLERGY SYMPTOMS</th>
+                              <th colspan="2" class="text-uppercase new-size bg-blue x-lg-font text-mob-center">ALLERGY SYMPTOMS</th>
                            </tr>
                         </thead>
-                        <tbody>
+                        <tbody class=" text-mob-center">
                            <tr>
-                              <td class="text-muted same-same lg-font">RUNNY NOSE</td>
+                              <td class="text-muted same-same lg-font text-mob-center">RUNNY NOSE</td>
                            </tr>
                            <tr>
-                              <td  class="lg-font">SNEEZING</td>
+                              <td  class="lg-font text-mob-center">SNEEZING</td>
                            </tr>
                            <tr>
-                              <td class="lg-font">SHORTNESS OF BREATH</td>
+                              <td class="lg-font text-mob-center">SHORTNESS OF BREATH</td>
                            </tr>
                            <tr>
-                              <td class="lg-font">COUGH</td>
+                              <td class="lg-font text-mob-center">COUGH</td>
                            </tr>
                            <tr>
-                              <td class="lg-font">RASHES</td>
+                              <td class="lg-font text-mob-center">RASHES</td>
                            </tr>
                            <tr>
-                              <td class="lg-font">FATIGUE</td>
+                              <td class="lg-font text-mob-center">FATIGUE</td>
                            </tr>
                            <tr>
-                              <td class="lg-font">HEADACHE</td>
+                              <td class="lg-font text-mob-center">HEADACHE</td>
                            </tr>
                            <tr>
-                              <td class="lg-font">NAUSEA</td>
+                              <td class="lg-font text-mob-center">NAUSEA</td>
                            </tr>
                            <tr>
-                              <td class="lg-font">VOMITING</td>
+                              <td class="lg-font text-mob-center">VOMITING</td>
                            </tr>
                            <tr>
-                              <td class="lg-font">FEVER</td>
+                              <td class="lg-font text-mob-center">FEVER</td>
                            </tr>
                            
                         </tbody>
@@ -822,36 +832,36 @@ tbody{
                      <table class="table custom-table bg-blue">
                         <thead>
                            <tr>
-                              <th colspan="2" class="text-uppercase new-size bg-blue x-lg-font">FLU SYMPTOMS</th>
+                              <th colspan="2" class="text-uppercase new-size bg-blue x-lg-font text-mob-center">FLU SYMPTOMS</th>
                            </tr>
                         </thead>
                         <tbody>
                            <tr>
-                              <td class="text-muted same-same lg-font">FEVER</td>
+                              <td class="text-muted same-same lg-font text-mob-center">FEVER</td>
                            </tr>
                            <tr>
-                              <td class="lg-font">COUGH</td>
+                              <td class="lg-font text-mob-center">COUGH</td>
                            </tr>
                            <tr>
-                              <td class="lg-font">SORE THROAT</td>
+                              <td class="lg-font text-mob-center">SORE THROAT</td>
                            </tr>
                            <tr>
-                              <td class="lg-font">RUNNY NOSE</td>
+                              <td class="lg-font text-mob-center">RUNNY NOSE</td>
                            </tr>
                            <tr>
-                              <td class="lg-font">MUSCLE OR BODY ACHES</td>
+                              <td class="lg-font text-mob-center">MUSCLE OR BODY ACHES</td>
                            </tr>
                             <tr>
-                              <td class="lg-font">HEADACHE</td>
+                              <td class="lg-font text-mob-center">HEADACHE</td>
                            </tr>
                            <tr>
-                              <td class="lg-font">FITIGUE(TIREDNESS)</td>
+                              <td class="lg-font text-mob-center">FITIGUE(TIREDNESS)</td>
                            </tr>
                            <tr>
-                              <td class="lg-font">VOMITING</td>
+                              <td class="lg-font text-mob-center">VOMITING</td>
                            </tr>
                             <tr>
-                              <td class="lg-font">DIARRHEA</td>
+                              <td class="lg-font text-mob-center">DIARRHEA</td>
                            </tr>
                            <tr>
                               <td></td>
@@ -875,24 +885,24 @@ tbody{
                      <table class="table custom-table bg-d-blue">
                         <thead>
                            <tr>
-                              <th colspan="2" class="text-uppercase new-size bg-d-blue x-lg-font">COVID-19 SYMPTOMS</th>
+                              <th colspan="2" class="text-uppercase new-size bg-d-blue x-lg-font text-mob-center">COVID-19 SYMPTOMS</th>
                            </tr>
                         </thead>
                         <tbody>
                            <tr>
-                              <td class="text-muted same-same lg-font" ><strong>HIGH FEVER</strong></td>
+                              <td class="text-muted same-same lg-font text-mob-center" ><strong>HIGH FEVER</strong></td>
                            </tr>
                            <tr>
-                              <td class="lg-font"><strong>SHORTNESS OF BREATH</strong></td>
+                              <td class="lg-font text-mob-center"><strong>SHORTNESS OF BREATH</strong></td>
                            </tr>
                            <tr>
-                              <td class="lg-font"><strong>DRY COUGH</strong></td>
+                              <td class="lg-font text-mob-center"><strong>DRY COUGH</strong></td>
                            </tr>
                            <tr>
-                              <td class="lg-font">SORE THROAT</td>
+                              <td class="lg-font text-mob-center">SORE THROAT</td>
                            </tr>
                            <tr>
-                              <td class="lg-font">HEADACHE</td>
+                              <td class="lg-font text-mob-center">HEADACHE</td>
                            </tr>
                            <tr>
                               <td style="opacity: 0"> .</td>
@@ -1208,7 +1218,7 @@ tbody{
                <div class="row">
                   <div class="content-block-content small-10 large-8 small-centered column get_in_touch_content" >
                      
-                     <p class="title git_footer">Call us at<a href="tel:(972) 230-8888" class="clr"> (972) 230-8888</a><br></p>
+                     <p class="title git_footer">Call us at<a href="tel:(972) 230-8888" class="clr"> <br class="mob-only">(972) 230-8888</a><br></p>
                      <p> For immediate medical attention from your local emergency healthcare provider</p>
                      <div class="text">
                         <!-- <p class="new4 git_sub_ttl">.
@@ -2225,7 +2235,7 @@ $(document).ready(function() {
 
 
 
-<div class="row text-left">
+<div class="row text-center">
 <div class="col-md-6 col-sm-12 col-lg-4 col-xl-4">
 
     <div class="inner-address">
