@@ -739,6 +739,13 @@ tbody{
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
      border-top: none; 
 }
+.x-lg-font{
+  font-size: x-large !important;
+  padding: 1rem !important;
+}
+.xx-lg-font{
+  font-size: xx-large !important;
+}
 .lg-font{
   font-size: large !important;
 }
@@ -751,7 +758,7 @@ tbody{
             <div class="row justify-content-center d-flex">
                <div class="col-lg-12 col-sm-12 col-md-12 col-sx-12 col-xl-12">
                   <div class=" entry">
-                     <h3 class="text-dark custom-size text-center">Between ALLERGIES, FLU, COVID-19,<br> <strong class="dark-blue">DO YOU KNOW THE DIFFERENT SYMPTOMS?</strong></h3>
+                     <h3 class="text-dark custom-size text-center xx-lg-font">Between ALLERGIES, FLU, COVID-19,<br> <strong class="dark-blue">DO YOU KNOW THE DIFFERENT SYMPTOMS?</strong></h3>
                   </div>
                </div>
                <div class="col-lg-4 col-sm-12 col-md-4 col-sx-12 col-xl-4">
@@ -764,39 +771,39 @@ tbody{
                      <table class="table bg-blue">
                         <thead>
                            <tr>
-                              <th colspan="2" class="text-uppercase new-size bg-blue lg-font">ALLERGY SYMPTOMS</th>
+                              <th colspan="2" class="text-uppercase new-size bg-blue x-lg-font">ALLERGY SYMPTOMS</th>
                            </tr>
                         </thead>
                         <tbody>
                            <tr>
-                              <td class="text-muted same-same">RUNNY NOSE</td>
+                              <td class="text-muted same-same lg-font">RUNNY NOSE</td>
                            </tr>
                            <tr>
-                              <td>SNEEZING</td>
+                              <td  class="lg-font">SNEEZING</td>
                            </tr>
                            <tr>
-                              <td>SHORTNESS OF BREATH</td>
+                              <td class="lg-font">SHORTNESS OF BREATH</td>
                            </tr>
                            <tr>
-                              <td>COUGH</td>
+                              <td class="lg-font">COUGH</td>
                            </tr>
                            <tr>
-                              <td>RASHES</td>
+                              <td class="lg-font">RASHES</td>
                            </tr>
                            <tr>
-                              <td>FATIGUE</td>
+                              <td class="lg-font">FATIGUE</td>
                            </tr>
                            <tr>
-                              <td>HEADACHE</td>
+                              <td class="lg-font">HEADACHE</td>
                            </tr>
                            <tr>
-                              <td>NAUSEA</td>
+                              <td class="lg-font">NAUSEA</td>
                            </tr>
                            <tr>
-                              <td>VOMITING</td>
+                              <td class="lg-font">VOMITING</td>
                            </tr>
                            <tr>
-                              <td>FEVER</td>
+                              <td class="lg-font">FEVER</td>
                            </tr>
                            
                         </tbody>
@@ -813,36 +820,42 @@ tbody{
                      <table class="table custom-table bg-blue">
                         <thead>
                            <tr>
-                              <th colspan="2" class="text-uppercase new-size bg-blue lg-font">FLU SYMPTOMS</th>
+                              <th colspan="2" class="text-uppercase new-size bg-blue x-lg-font">FLU SYMPTOMS</th>
                            </tr>
                         </thead>
                         <tbody>
                            <tr>
-                              <td class="text-muted same-same">FEVER</td>
+                              <td class="text-muted same-same lg-font">FEVER</td>
                            </tr>
                            <tr>
-                              <td>COUGH</td>
+                              <td class="lg-font">COUGH</td>
                            </tr>
                            <tr>
-                              <td>SORE THROAT</td>
+                              <td class="lg-font">SORE THROAT</td>
                            </tr>
                            <tr>
-                              <td>RUNNY NOSE</td>
+                              <td class="lg-font">RUNNY NOSE</td>
                            </tr>
                            <tr>
-                              <td>MUSCLE OR BODY ACHES</td>
+                              <td class="lg-font">MUSCLE OR BODY ACHES</td>
                            </tr>
                             <tr>
-                              <td>HEADACHE</td>
+                              <td class="lg-font">HEADACHE</td>
                            </tr>
                            <tr>
-                              <td>FITIGUE(TIREDNESS)</td>
+                              <td class="lg-font">FITIGUE(TIREDNESS)</td>
                            </tr>
                            <tr>
-                              <td>VOMITING</td>
+                              <td class="lg-font">VOMITING</td>
                            </tr>
                             <tr>
-                              <td>DIARRHEA</td>
+                              <td class="lg-font">DIARRHEA</td>
+                           </tr>
+                           <tr>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <td> </td>
                            </tr>
                            
                            
@@ -860,30 +873,40 @@ tbody{
                      <table class="table custom-table bg-d-blue">
                         <thead>
                            <tr>
-                              <th colspan="2" class="text-uppercase new-size bg-d-blue lg-font">COVID-19 SYMPTOMS</th>
+                              <th colspan="2" class="text-uppercase new-size bg-d-blue x-lg-font">COVID-19 SYMPTOMS</th>
                            </tr>
                         </thead>
                         <tbody>
                            <tr>
-                              <td class="text-muted same-same"><strong>HIGH FEVER</strong></td>
+                              <td class="text-muted same-same lg-font" ><strong>HIGH FEVER</strong></td>
                            </tr>
                            <tr>
-                              <td><strong>SHORTNESS OF BREATH</strong></td>
+                              <td class="lg-font"><strong>SHORTNESS OF BREATH</strong></td>
                            </tr>
                            <tr>
-                              <td><strong>DRY COUGH</strong></td>
+                              <td class="lg-font"><strong>DRY COUGH</strong></td>
                            </tr>
                            <tr>
-                              <td>SORE THROAT</td>
+                              <td class="lg-font">SORE THROAT</td>
                            </tr>
                            <tr>
-                              <td>HEADACHE</td>
+                              <td class="lg-font">HEADACHE</td>
                            </tr>
                            <tr>
-                              <td></td>
+                              <td style="opacity: 0"> .</td>
                            </tr>
+                           <tr>
+                              <td style="opacity: 0"> .</td>
+                           </tr>
+                           <tr>
+                              <td style="opacity: 0"> .</td>
+                           </tr>
+                           
                            <tr>
                               <td><i>Symptoms may appear 2-14 days after exposure</i></td>
+                           </tr>
+                           <tr>
+                              <td style="opacity: 0"> .</td>
                            </tr>
                         </tbody>
                      </table>
