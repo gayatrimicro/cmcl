@@ -595,17 +595,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                <div class="row">
                   <div class="content-block-content small-12 large-12 small-centered column get_in_touch_content"  style="width: 100% !important">
                      <div class=" entry dotted-underline">
-                     <h3 class="text-dark custom-size text-center">Anyone who believes they are <strong class="dark-blue">showing severe symptoms of COVID-19 </strong><br>is urged to visit at  <strong class="dark-blue">Crescent Medical Center Lancaster </strong> for a screening.</h3>
+                     <h3 class="text-dark custom-size text-center" style="text-transform: none;">Anyone who believes they are <strong class="dark-blue">showing severe symptoms of COVID-19 </strong><br>is urged to visit at  <strong class="dark-blue">Crescent Medical Center Lancaster </strong> for a screening.</h3>
                   </div>
                   <style type="text/css">
                     .column-4{
-                      width: 33.33%;
+                      width: 30%;
                       display: inline-block;
                       float: left;
                     }
+                    .column-40{
+                      width: 40%;
+                      display: inline-block;
+                      float: left;
+                    }
+                    .box-img{
+                      padding: 2rem 0rem;
+                    }
+
 
                     @media (max-width: 600px){
-                      .column-4{
+                      .column-4, .column-40{
                         width: 100%;
                       }
                       .row{
@@ -613,24 +622,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       }
                     }
                   </style>
-                  <div class="row dotted-underline">
+                  <div class="row dotted-underlined box-img">
                     <div class="column-4">
                       <img src="../assets/images/virus.png" style="width: 100px;display: inline-block;float: left;">
-                      <h3 style="padding-top:20px;padding-left:20px;display: inline-block;float: left;">High Fever</h3>
+                      <h3 style="padding-top:20px;padding-left:20px;display: inline-block;float: left;"> <strong class="dark-blue">High Fever</strong></h3>
                     </div>
                     <div class="column-4">
                       <img src="../assets/images/virus.png" style="width: 100px;display: inline-block;float: left;">
-                      <h3 style="padding-top:20px;padding-left:20px;display: inline-block;float: left;">Dry Cough</h3>
+                      <h3 style="padding-top:20px;padding-left:20px;display: inline-block;float: left;"> <strong class="dark-blue">Dry Cough</strong></h3>
                     </div>
-                    <div class="column-4">
+                    <div class="column-40">
                       <img src="../assets/images/virus.png" style="width: 100px;display: inline-block;float: left;">
-                      <h3 style="padding-top:20px;padding-left:20px;display: inline-block;float: left;">Shortness of Breath</h3>
+                      <h3 style="padding-top:20px;padding-left:20px;display: inline-block;float: left;"> <strong class="dark-blue">Shortness of Breath</strong></h3>
                     </div>
                   </div>
 
 
                   <div class=" entry">
-                     <h3 class="text-dark custom-size text-center">Screening hours are from 8:00 A.M. to 6:00 P.M.<br> <strong class="dark-blue">2600 W. Pleasant Run Rd. Lancaster, TX 75146 </strong></h3>
+                     <h3 class="text-dark custom-size text-center"  style="text-transform: none;">Screening hours are from 8:00 A.M. to 6:00 P.M.<br> <strong class="dark-blue">2600 W. Pleasant Run Rd. Lancaster, TX 75146 </strong></h3>
                   </div>
 
                    </div>
@@ -730,6 +739,9 @@ tbody{
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
      border-top: none; 
 }
+.lg-font{
+  font-size: large !important;
+}
 </style>
 <section class="content-block content-block-left-image-content  grey-bg" data-equalizer style="padding: 2rem 0rem;">
    <div class="">
@@ -752,39 +764,39 @@ tbody{
                      <table class="table bg-blue">
                         <thead>
                            <tr>
-                              <th colspan="2" class="text-uppercase new-size bg-blue">ALLERGY SYMPTOMS</th>
+                              <th colspan="2" class="text-uppercase new-size bg-blue lg-font">ALLERGY SYMPTOMS</th>
                            </tr>
                         </thead>
                         <tbody>
                            <tr>
-                              <td class="text-muted same-same"><strong>RUNNY NOSE</strong></td>
+                              <td class="text-muted same-same">RUNNY NOSE</td>
                            </tr>
                            <tr>
-                              <td><strong>SNEEZING</strong></td>
+                              <td>SNEEZING</td>
                            </tr>
                            <tr>
-                              <td><strong>SHORTNESS OF BREATH</strong></td>
+                              <td>SHORTNESS OF BREATH</td>
                            </tr>
                            <tr>
-                              <td><strong>COUGH</strong></td>
+                              <td>COUGH</td>
                            </tr>
                            <tr>
-                              <td><strong>RASHES</strong></td>
+                              <td>RASHES</td>
                            </tr>
                            <tr>
-                              <td><strong>FATIGUE</strong></td>
+                              <td>FATIGUE</td>
                            </tr>
                            <tr>
-                              <td><strong>HEADACHE</strong></td>
+                              <td>HEADACHE</td>
                            </tr>
                            <tr>
-                              <td><strong>NAUSEA</strong></td>
+                              <td>NAUSEA</td>
                            </tr>
                            <tr>
-                              <td><strong>VOMITING</strong></td>
+                              <td>VOMITING</td>
                            </tr>
                            <tr>
-                              <td><strong>FEVER</strong></td>
+                              <td>FEVER</td>
                            </tr>
                            
                         </tbody>
@@ -801,36 +813,36 @@ tbody{
                      <table class="table custom-table bg-blue">
                         <thead>
                            <tr>
-                              <th colspan="2" class="text-uppercase new-size bg-blue">FLU SYMPTOMS</th>
+                              <th colspan="2" class="text-uppercase new-size bg-blue lg-font">FLU SYMPTOMS</th>
                            </tr>
                         </thead>
                         <tbody>
                            <tr>
-                              <td class="text-muted same-same"><strong>FEVER</strong></td>
+                              <td class="text-muted same-same">FEVER</td>
                            </tr>
                            <tr>
-                              <td><strong>COUGH</strong></td>
+                              <td>COUGH</td>
                            </tr>
                            <tr>
-                              <td><strong>SORE THROAT</strong></td>
+                              <td>SORE THROAT</td>
                            </tr>
                            <tr>
-                              <td><strong>RUNNY NOSE</strong></td>
+                              <td>RUNNY NOSE</td>
                            </tr>
                            <tr>
-                              <td><strong>MUSCLE OR BODY ACHES</strong></td>
+                              <td>MUSCLE OR BODY ACHES</td>
                            </tr>
                             <tr>
-                              <td><strong>HEADACHE</strong></td>
+                              <td>HEADACHE</td>
                            </tr>
                            <tr>
-                              <td><strong>FITIGUE(TIREDNESS)</strong></td>
+                              <td>FITIGUE(TIREDNESS)</td>
                            </tr>
                            <tr>
-                              <td><strong>VOMITING</strong></td>
+                              <td>VOMITING</td>
                            </tr>
                             <tr>
-                              <td><strong>DIARRHEA</strong></td>
+                              <td>DIARRHEA</td>
                            </tr>
                            
                            
@@ -848,7 +860,7 @@ tbody{
                      <table class="table custom-table bg-d-blue">
                         <thead>
                            <tr>
-                              <th colspan="2" class="text-uppercase new-size bg-d-blue">COVID-19 SYMPTOMS</th>
+                              <th colspan="2" class="text-uppercase new-size bg-d-blue lg-font">COVID-19 SYMPTOMS</th>
                            </tr>
                         </thead>
                         <tbody>
