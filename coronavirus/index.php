@@ -568,10 +568,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                      <div class="text">
                       <p class="dark-blue"><strong>Contact your healthcare provider if you:</strong></p>
-                      <p>Develop symptoms and/or have been in close contact with a person known to have COVID-19 (Coronavirus) or live in or have recently traveled from an area with ongoing spread of COVID-19 (Coronavirus). Call ahead before you go to a doctor's office or emergency room. Tell them about your recent travel and your symptoms.</p>
+                      <p>Develop symptoms and/or have been in close contact with a person known to have COVID-19 (Coronavirus) or live in or have recently traveled from an area with ongoing spread of COVID-19 (Coronavirus). </p>
+
+                      <p>Call ahead before you go to a doctor's office or emergency room. Tell them about your recent travel and your symptoms.</p>
                       
 
-                      <p>For the most up to date information, visit the CDC's website.</p>
+                      <p>For the most up to date information, visit the <a href="https://www.cdc.gov/"> CDC's website.</a></p>
                       
                       
                      </div>
