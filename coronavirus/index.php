@@ -437,14 +437,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
        <!--  language translator header end -->
          <main id="main" class="main-content" role="main">
-            <section class="page-banner page-banner-landing full-page">
+            <section class="page-banner page-banner-landing" style="min-height: 700px;"> <!-- full-page -->
                <div class="bg bg-image"
                   style="background-image: url('../assets/images/res-corona-banner.jpg');"
                   ></div>
               <div class="row">
                   <div class="column">
                      <div class="page-banner-content">
-                        <h1><span class="dotted-underline">Novel Coronavirus 
+                        <h1><span class="dotted-underline">Coronavirus (COVID-19) Resource 
 </span></h1>
                         <p>
                         
@@ -502,21 +502,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-          <p class="justify-txt dark-blue">
-                        <strong>How can I protect myself and others from the COVID-19 (Coronavirus)?  </strong></p>
+          <!-- <p class="justify-txt dark-blue"><strong>How can I protect myself and others from the COVID-19 (Coronavirus)?  </strong></p> -->
 
                         <p class="justify-txt">
-                          Because there is currently no vaccine to prevent infection, the best way to protect yourself is to avoid being exposed to this virus. The CDC recommends the following additional steps:
-                        </p>
-                        <ul>
-                          <li>Wash your hands often with soap and water for at least 20 seconds, especially after blowing your nose, coughing, or sneezing; going to the bathroom; and before eating or preparing food.</li>
-                          <li>Use an alcohol-based hand sanitizer that contains at least 60 percent alcohol if soap and water are not available.</li>
-                          <li>Avoid touching your eyes, nose and mouth with unwashed hands.</li>
-                          <li>Avoid close contact with people who are sick.</li>
-                          <li>Stay home when you are sick.</li>
-                          <li>Cover your cough or sneeze with a tissue, then throw the tissue in the trash.</li>
-                          <li>Clean and disinfect frequently touched objects and surfaces.</li>
-                        </ul>
+                          Crescent Medical Center Lancaster (CMCL) is closely monitoring the coronavirus outbreak, known as COVID-19. We regularly treat patients with infectious diseases, and CMCL physicians, nurses, and clinical staff are highly trained in infection prevention protocols. Specific to COVID-19, we are following the procedures outlined by the<a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html"> CDC</a> and state and federal healthcare authorities.</p>
+
+                        <p class="justify-txt">As always, if you are experiencing a medical emergency, call 911. If available, put on a face mask before emergency medical services arrive.</p>
 
                         <br>
 
@@ -539,11 +530,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                      
 
                    <p>
-                    Crescent Medical Center Lancaster (CMCL) is closely monitoring the coronavirus outbreak, known as COVID-19. We regularly treat patients with infectious diseases, and CMCL physicians, nurses, and clinical staff are highly trained in infection prevention protocols. Specific to COVID-19, we are following the procedures outlined by the CDC and state and federal healthcare authorities.</p>
+                    Crescent Medical Center Lancaster (CMCL) is closely monitoring the coronavirus outbreak, known as COVID-19. We regularly treat patients with infectious diseases, and CMCL physicians, nurses, and clinical staff are highly trained in infection prevention protocols. Specific to COVID-19, we are following the procedures outlined by the<a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html"> CDC</a> and state and federal healthcare authorities.</p>
 
                     <p>As always, if you are experiencing a medical emergency, call 911. Notify the dispatch personnel that you have or are being evaluated for COVID-19. If available, put on a face mask before emergency medical services arrive.</p>
                    
-                    <p>For additional information and ongoing updates on COVID-19, please refer to the CDC's Coronavirus Disease 2019 (COVID-19) hub at <a href="http://coronavirus.gov/">http://coronavirus.gov/</a> </p>
+                    <p>For additional information and ongoing updates on COVID-19, please refer to the<a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html"> CDC's</a> Coronavirus Disease 2019 (COVID-19) hub at <a href="http://coronavirus.gov/">http://coronavirus.gov/</a> </p>
                     
                       
                      </div>
@@ -567,13 +558,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
                      <div class="text">
-                      <p class="dark-blue"><strong>Contact your healthcare provider if you:</strong></p>
-                      <p>Develop symptoms and/or have been in close contact with a person known to have COVID-19 (Coronavirus) or live in or have recently traveled from an area with ongoing spread of COVID-19 (Coronavirus). </p>
+                      <p class="dark-blue"><strong>Contact us if you:</strong></p>
+                      <p>Develop symptoms and/or have been in close contact with a person known to have COVID-19 (Coronavirus) or live in or have recently traveled from an area with ongoing spread of COVID-19 (Coronavirus).</p> 
 
-                      <p>Call ahead before you go to a doctor's office or emergency room. Tell them about your recent travel and your symptoms.</p>
-                      
+                      <p>We are focused on protecting you and the community. The Emergency Department is prepared for the screening of patients with the presumptive concerns of having symptoms associated with this virus.</p>
 
-                      <p>For the most up to date information, visit the <a href="https://www.cdc.gov/"> CDC's website.</a></p>
+                      <p>If you have any questions or concerns feel free visit our Emergency Department or call us at (972) 230-8888.</p>
                       
                       
                      </div>
@@ -1218,7 +1208,7 @@ tbody{
                <div class="row">
                   <div class="content-block-content small-10 large-8 small-centered column get_in_touch_content" >
                      
-                     <p class="title git_footer">Call us at<a href="tel:(972) 230-8888" class="clr"><span style="font-size: 2rem;">(972) 230-8888</span></a><br></p>
+                     <p class="title git_footer">Call us at<a href="tel:(972) 230-8888" class="clr"> (972)230-8888</a><br></p>
                      <p> For immediate medical attention from your local emergency healthcare provider</p>
                      <div class="text">
                         <!-- <p class="new4 git_sub_ttl">.
@@ -3404,7 +3394,7 @@ font-weight: bold !important;
             font-size: 38px !important;
           }
           .get_in_touch_content{
-              width: 80% !important;
+              width: 95% !important;
             }
         }
         @media only screen and (max-width: 560px){
