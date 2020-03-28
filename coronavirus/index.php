@@ -505,7 +505,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <!-- <p class="justify-txt dark-blue"><strong>How can I protect myself and others from the COVID-19 (Coronavirus)?  </strong></p> -->
 
                         <p class="justify-txt">
-                          Crescent Medical Center Lancaster (CMCL) is closely monitoring the coronavirus outbreak, known as COVID-19. We regularly treat patients with infectious diseases, and CMCL physicians, nurses, and clinical staff are highly trained in infection prevention protocols. Specific to COVID-19, we are following the procedures outlined by the <a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html">CDC</a> and state and federal healthcare authorities.</p>
+                          Crescent Medical Center Lancaster (CMCL) is closely monitoring the coronavirus outbreak, known as COVID-19. We regularly treat patients with infectious diseases, and CMCL physicians, nurses, and clinical staff are highly trained in infection prevention protocols. Specific to COVID-19, we are following the procedures outlined by the <a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html" target="_blank">CDC</a> and state and federal healthcare authorities.</p>
 
                         <p class="justify-txt">As always, if you are experiencing a medical emergency, call 911. If available, put on a face mask before emergency medical services arrive.</p>
 
@@ -513,7 +513,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                         <p class="dark-blue"><strong>COVID-19 General Information</strong></p>
 
-                    <p>For additional information and ongoing updates on COVID-19, please refer to the CDC's Coronavirus Disease 2019 (COVID-19) hub at <a href="http://coronavirus.gov/">http://coronavirus.gov/</a> </p>
+                    <p>For additional information and ongoing updates on COVID-19, please refer to the CDC's Coronavirus Disease 2019 (COVID-19) hub at <a href="http://coronavirus.gov/" target="_blank">http://coronavirus.gov/</a> </p>
 
                     <p>With the increase in number of COVID-19 (Coronavirus), we understand you may have some questions. Below are some helpful information on COVID-19 (Coronavirus).</p>
 <br>
@@ -710,10 +710,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                           <li>You will need to have someone drop off medications or household supplies (if needed) at your house without coming inside or in contact with you or others living in your house.</li>
                           <li>Monitor your symptoms and seek prompt medical care if your illness is worsening (e.g., difficulty breathing).</li>
                           <li>Discontinue home isolation only in consultation with a healthcare provider.</li>
-                          <li>For more detailed and up to date information on what to do if you are sick, visit this link: What to Do If You Are Sick With Coronavirus Disease 2019 (COVID-19).</li>
+                          <li>For more detailed and up to date information on what to do if you are sick, visit this link: <a href="https://www.cdc.gov/coronavirus/2019-ncov/if-you-are-sick/steps-when-sick.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fabout%2Fsteps-when-sick.html" target="_blank">What to Do If You Are Sick With Coronavirus Disease 2019 (COVID-19).</a> </li>
                         </ul>
 
- 
+                        <p>Call 911 if you have a medical emergency: If you have a medical emergency and need to call 911, notify the operator that you have or think you might have, COVID-19. If possible, put on a facemask before medical help arrives.</p>
                         <br>
 
 
