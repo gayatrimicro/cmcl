@@ -505,11 +505,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <!-- <p class="justify-txt dark-blue"><strong>How can I protect myself and others from the COVID-19 (Coronavirus)?  </strong></p> -->
 
                         <p class="justify-txt">
-                          Crescent Medical Center Lancaster (CMCL) is closely monitoring the coronavirus outbreak, known as COVID-19. We regularly treat patients with infectious diseases, and CMCL physicians, nurses, and clinical staff are highly trained in infection prevention protocols. Specific to COVID-19, we are following the procedures outlined by the<a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html"> CDC</a> and state and federal healthcare authorities.</p>
+                          Crescent Medical Center Lancaster (CMCL) is closely monitoring the coronavirus outbreak, known as COVID-19. We regularly treat patients with infectious diseases, and CMCL physicians, nurses, and clinical staff are highly trained in infection prevention protocols. Specific to COVID-19, we are following the procedures outlined by the <a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html">CDC</a> and state and federal healthcare authorities.</p>
 
                         <p class="justify-txt">As always, if you are experiencing a medical emergency, call 911. If available, put on a face mask before emergency medical services arrive.</p>
 
                         <br>
+
+                        <p class="dark-blue"><strong>COVID-19 General Information</strong></p>
+
+                    <p>For additional information and ongoing updates on COVID-19, please refer to the CDC's Coronavirus Disease 2019 (COVID-19) hub at <a href="http://coronavirus.gov/">http://coronavirus.gov/</a> </p>
+
+                    <p>With the increase in number of COVID-19 (Coronavirus), we understand you may have some questions. Below are some helpful information on COVID-19 (Coronavirus).</p>
+<br>
+
 
 
 </div>
@@ -658,7 +666,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                       <p>If you have any questions or concerns feel free visit our Emergency Department or call us at <a href="tel:(972) 230-8888">(972) 230-8888.</a></p>
                       
-                      
+                      <br>
                      </div>
 
 
