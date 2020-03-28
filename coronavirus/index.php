@@ -656,7 +656,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                       <p>We are focused on protecting you and the community. The Emergency Department is prepared for the screening of patients with the presumptive concerns of having symptoms associated with this virus.</p>
 
-                      <p>If you have any questions or concerns feel free visit our Emergency Department or call us at (972) 230-8888.</p>
+                      <p>If you have any questions or concerns feel free visit our Emergency Department or call us at <a href="tel:(972) 230-8888">(972) 230-8888.</a></p>
                       
                       
                      </div>
