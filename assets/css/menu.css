@@ -2,6 +2,7 @@
 .desktop-menu-mega .sub-menu .mega-menu{
 /*width: unset !important;*/
 padding: 20px 0 20px 20px;
+height: auto !important;
 }
 .desktop-menu-mega .sub-menu>div>.title .dotted-underline{
 padding: 0 30px 9px 0;
@@ -19,7 +20,8 @@ font-size: 0.92rem;
     background-color: #fff;
 }
 .desktop-menu .menu-wrap>.menu .menu-item:hover>.sub-menu, #arrow{
-    max-height: fit-content;
+    max-height: 100%;
+    /*max-height: fit-content;*/
         overflow: hidden;
 }
 /*.desktop-menu-mega .sub-menu>div>.title{
@@ -108,4 +110,5 @@ font-size: 0.92rem;
 }
 .desktop-menu-mega .menu-wrap>.menu .sub-menu{
   pointer-events: visible;
+  z-index: 9999;
 }

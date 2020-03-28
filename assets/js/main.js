@@ -599,7 +599,7 @@ jQuery(document).ready(function($) {
 // '</ul>'+
 '</div>' +
         '</div>'+
-        ' <div class="menu-wrap" style="background-color:#ff7f30;width:100vw;position: absolute;left: 0;text-decoration:underline;">' +
+        ' <div class="menu-wrap" id="corona" style="background-color:#ff7f30;width:100%;position: absolute;left: 0;text-decoration:underline;">' +
         '<h5 style="padding-left:25px;text-transform:capitalize;"><a href="/coronavirus/" style="color:#fff;"><i class="fa fa-exclamation-triangle" style="padding:0px 10px;"></i>COVID-19 : <span style="color:#fff;">What you need to know about the current outbreak of 2019 novel coronavirus</span>&nbsp;&nbsp;<i class="fa fa-arrow-right"></i></a></h5>' +
         '</div>';
 
@@ -982,7 +982,7 @@ jQuery(document).ready(function($) {
         '</div>' +
         '</div>' +
         '</div>' +
-        '<div class="row" style="background-color:#ff7f30">' +
+        '<div class="row" id="corona" style="background-color:#ff7f30">' +
         '<div class="column" style="padding:10px;">' +
         '<marquee><a href="/coronavirus/" style="font-size:20px;color:#fff;text-decoration:underline;"><i class="fa fa-exclamation-triangle" style="padding:0px 10px;"></i>COVID-19 : What you need to know about the current outbreak of 2019 novel coronavirus&nbsp;&nbsp;<i class="fa fa-arrow-right"></i></a></marquee>'
         '</div>' +
