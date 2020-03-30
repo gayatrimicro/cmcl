@@ -15,7 +15,7 @@
       <meta class="foundation-data-attribute-namespace">
       <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Coronavirus (COVID-19) Resource | CMC Lancaster</title>
+      <title>Coronavirus (COVID-19) Resource. Updated March 23, 2020</title>
 
 <meta name="description" content="Contact the Crescent Medical Centre to get medical assistance if you suspect that you may have the COVID-19. Call (972) 230-8888 for a quick consultation." >
 
@@ -23,16 +23,16 @@
 <meta property="og:locale" content="en_US">
 <meta name="og:site_name" content="CMC Lancaster"/>
 <meta property="og:type" content="Website">
-<meta property="og:title" content="Coronavirus Information & Resources | CMC Lancaster">
+<meta property="og:title" content="Coronavirus (COVID-19) Resource. Updated March 23, 2020">
 <meta property="og:description" content="Contact the Crescent Medical Centre to get medical assistance if you suspect that you may have the COVID-19. Call (972) 230-8888 for a quick consultation.">
-<meta property="og:url" content="https://cmclancaster.com/coronavirus/covid-19">
-<meta property="og:image" content="">
+<meta property="og:url" content="https://cmclancaster.com/coronavirus/">
+<meta property="og:image" content="https://cmclancaster.com/assets/images/res-corona-banner.jpg">
 
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Coronavirus Information & Resources | CMC Lancaster">
+<meta name="twitter:title" content="Coronavirus (COVID-19) Resource. Updated March 23, 2020">
 <meta name="twitter:description" content="Contact the Crescent Medical Centre to get medical assistance if you suspect that you may have the COVID-19. Call (972) 230-8888 for a quick consultation.">
-<meta name="twitter:image" content="">
-<meta name="twitter:url" content="https://cmclancaster.com/coronavirus/covid-19">
+<meta name="twitter:image" content="https://cmclancaster.com/assets/images/res-corona-banner.jpg">
+<meta name="twitter:url" content="https://cmclancaster.com/coronavirus/">
 
 <meta name="robots" content="index, follow" />
 
