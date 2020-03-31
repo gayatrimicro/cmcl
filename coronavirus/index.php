@@ -1698,9 +1698,9 @@ tbody{
         background-color: #fff !important; 
         margin-top: 11px !important;
       }
-      .fa-youtube-play:before{
-        margin-top: 7px !important;
-      }
+      /*.fa-youtube-play:before{
+        margin-top: 7px ;
+      }*/
 
 
 
@@ -2637,9 +2637,7 @@ $('document').ready(function () {
           }
       </style>
            <style type="text/css">
-        .fa-youtube-play:before{
-              margin-top: 7px;
-        }
+        
         @media only screen and (max-width: 1024px){
             .global-footer {
               padding: 60px 20px 10px;
