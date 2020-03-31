@@ -368,7 +368,7 @@ src="https://www.facebook.com/tr?id=384637232098666&ev=PageView
             
             <?php }else{ echo "";}}?>
             </main>
-           <footer class="global-footer" id="footer">
+           <footer>
           </footer>
       </div>
       

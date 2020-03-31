@@ -194,7 +194,7 @@
         margin-top: 11px !important;
       }
       .fa-youtube-play:before{
-        margin-top: 5px !important;
+        margin-top: 0px !important;
       }
 
 

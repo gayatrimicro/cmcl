@@ -251,7 +251,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                <!-- Edit regions/_cta-featured-banner -->
               
             </main>
-             <footer class="global-footer" id="footer">
+             <footer>
           
              
          </footer>

@@ -124,12 +124,25 @@
 .icon-linkedin-with-circle:before {
 	content: "\e912";
 }
+.p-rel{
+	position: relative !important;
+}
+.fa-instagram:before {
+    content: "\f16d";
+    margin: 0px !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 /*youtube*/
 .fa-youtube-play:before {
     content: "\f16a";
-    margin-top: 5px;
+    margin-top: 0px;
     position: absolute;
-    margin-left: -10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-left: 0px;
 }
 .fa-youtube-play{
 	/*font-size: 32px*/;
@@ -195,7 +208,7 @@
 }
 
     .fa-instagram:before {
-    margin-top: 5px !important;
+    margin-top: 5px;
     margin-left: -9px;
 }
 
@@ -206,8 +219,8 @@
 
 .fa-youtube-play:before {
   
-    margin-top: 4px;
-       margin-left: -10px;
+    margin-top: 0px;
+       margin-left: 0px;
 }
 
 }
@@ -228,10 +241,10 @@ body.home.page-template.page-template-template-home.page-template-template-home-
     width: 32px;
 }
 body.home.page-template.page-template-template-home.page-template-template-home-php.page .fa-youtube-play:before {
-    margin-top: 5px;
+    margin-top: 0px;
 }
 body.home.page-template.page-template-template-home.page-template-template-home-php.page .fa-instagram:before {
-	margin-top: 5px;
+	margin-top: 0px;
 }
 body.home.page-template.page-template-template-home.page-template-template-home-php.page i.insta.fa.fab.fa-instagram {
     width: 32px !important;
