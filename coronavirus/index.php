@@ -421,6 +421,14 @@ src="https://www.facebook.com/tr?id=384637232098666&ev=PageView
   .content-block-content-right-image .content-block-content, .content-block-left-image-content .content-block-content {
       padding: 50px 50px 50px 50px !important;
   }
+
+
+  @media (max-width: 76.25rem){
+        .column:first-child, .column:last-child, .columns:first-child, .columns:last-child {
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+    }
+}
 </style>
    </head>
    <body class="page-template page-template-template-landing page-template-template-landing-php page page-id-91 page-parent our-story">
