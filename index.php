@@ -68,7 +68,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <meta name="twitter:description" content="At Crescent Medical Center Lancaster we offer Unique Curative Consultation. A Complete medical facility for you and your entire family with extended hours and services. We provide the best Surgical & Specialty Services including emergency, heart, podiatry, orthopedic care, & other medical services" >
 
       <link rel="canonical" href="https://cmclancaster.com/">
-      <link rel="stylesheet" type="text/css" href="../assets/css/footer.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
 
       <link rel="alternate" href="https://cmclancaster.com/" hreflang="en-us" />
       
