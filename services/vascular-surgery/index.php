@@ -1000,7 +1000,7 @@ $('document').ready(function () {
       </script>
       <style type="text/css">
         .fa-youtube-play:before{
-              margin-top: 7px;
+              margin-top: 0px;
         }
         @media only screen and (max-width: 1024px){
             .global-footer {
