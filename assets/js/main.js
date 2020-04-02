@@ -345,9 +345,9 @@ jQuery(document).ready(function($) {
 
 
         
-        '<li class="menu-item">' +
-        '<a class="title" href="https://www.doctalkgo.com/crescent/" target="_blank">TELEMEDICINE<img src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/images/new.png" style="width:40px;position:relative;top:-11px;"> </a>' +
-        '</li>' +
+        // '<li class="menu-item">' +
+        // '<a class="title" href="https://www.doctalkgo.com/crescent/" target="_blank">TELEMEDICINE<img src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/images/new.png" style="width:40px;position:relative;top:-11px;"> </a>' +
+        // '</li>' +
 
         '<li class="menu-item">' +
         '<a class="title" href="https://cmclancaster.com/auto-accidents">AUTO ACCIDENTS </a>' +
@@ -841,9 +841,9 @@ jQuery(document).ready(function($) {
         // '</li>' +
         
 
-        '<li class="menu-item">' +
-        '<a href="https://www.doctalkgo.com/crescent/" target="_blank">TELEMEDICINE <img src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/images/new.png" style="width:40px;position:relative;top:-11px;"></a>' +
-        '</li>' +
+        // '<li class="menu-item">' +
+        // '<a href="https://www.doctalkgo.com/crescent/" target="_blank">TELEMEDICINE <img src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/images/new.png" style="width:40px;position:relative;top:-11px;"></a>' +
+        // '</li>' +
 
 
         '<li class="menu-item">' +

@@ -637,7 +637,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
                   <div class=" entry">
-                     <h3 class="text-dark custom-size text-center"  style="text-transform: none;">Screening hours are from 8:00 A.M. to 6:00 P.M.<br> <strong class="dark-blue">2600 W. Pleasant Run Rd. Lancaster, TX 75146 </strong></h3>
+                     <h3 class="text-dark custom-size text-center"  style="text-transform: none;">Screening hours are AVAILABLE 24/7<br> <strong class="dark-blue">2600 W. Pleasant Run Rd. Lancaster, TX 75146 </strong></h3>
                   </div>
 
                    </div>

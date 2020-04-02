@@ -348,9 +348,9 @@ jQuery(document).ready(function($) {
         '<a class="title" href="/services/radiology/">Radiology </a>' +
         '</li>' +
 
-         '<li class="menu-item">' +
-        '<a class="title" href="https://www.doctalkgo.com/crescent/" target="_blank">TELEMEDICINE<img src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/images/new.png" style="width:40px;position:relative;top:-11px;"> </a>' +
-        '</li>' +
+        //  '<li class="menu-item">' +
+        // '<a class="title" href="https://www.doctalkgo.com/crescent/" target="_blank">TELEMEDICINE<img src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/images/new.png" style="width:40px;position:relative;top:-11px;"> </a>' +
+        // '</li>' +
         
          
 
@@ -692,9 +692,9 @@ jQuery(document).ready(function($) {
         '<a href="/services/radiology/">Radiology </a>' +
         '</li>' +
 
-        '<li class="menu-item">' +
-        '<a href="https://www.doctalkgo.com/crescent/" target="_blank">TELEMEDICINE <img src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/images/new.png" style="width:40px;position:relative;top:-11px;"></a>' +
-        '</li>' +
+        // '<li class="menu-item">' +
+        // '<a href="https://www.doctalkgo.com/crescent/" target="_blank">TELEMEDICINE <img src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/images/new.png" style="width:40px;position:relative;top:-11px;"></a>' +
+        // '</li>' +
 
 
 
