@@ -12984,7 +12984,7 @@ img.img_dr {
     transition: width .6s,opacity .6s;
 }
 .desktop-menu-mega .sub-menu>div>.mega-menu-menu .menu-item:hover .title:after{
-	opacity: 1;
+	opacity: 0;
     width: 100%;	
 }
 /*Hiren Css Physicians page starts */

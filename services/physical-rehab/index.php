@@ -131,6 +131,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           padding: 10px 0 10px 0;
          }
          }
+         .desktop-menu-mega .sub-menu .mega-menu .mega-menu-menu .menu-item a:hover{
+          text-decoration: none !important;
+         }
       </style>
       <!-- /SEO Ultimate -->
       <link rel="dns-prefetch" href="https://ajax.googleapis.com/">
