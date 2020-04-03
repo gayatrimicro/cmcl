@@ -443,7 +443,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <p>Wanda Payne, RN is a Certified Wound Care RN with over 10 years of experience.</p>
 <p>
 Cassandra Davis, LVN is also Certified in Wound Care with over 6 years of experience.</p>
-                     </p>
+                     </p> 
+                     <p style="text-align: center;">
+                           <a class="button small" href="mailto:wandapayne@cmclancaster.com">TELE WOUND CARE</a>
+                        </p>
                      
                      <div class="text">
                         

@@ -5485,7 +5485,8 @@ a {
 	line-height: inherit
 }
 a:focus, a:hover {
-	color: #db1e11
+	color: #db1e11;
+	text-decoration: none !important;
 }
 a img {
 	border: none
