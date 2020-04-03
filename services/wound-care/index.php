@@ -395,7 +395,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                      <div class="text">
                         <p>
 <p class="title"> Individualized Care and Treatment</p>    
-<p>After an initial assessment, our Wound Care Specialist will determine each patient’s personalized treatment plan. We can optimize healing results by accurately identifying why a wound will not heal, and by evaluating the patient’s overall health. Our experienced team also provides comprehensive patient education to prevent wounds from recurring.</p><br>
+<p style="padding-right: 40px;">After an initial assessment, our Wound Care Specialist will determine each patient’s personalized treatment plan. We can optimize healing results by accurately identifying why a wound will not heal, and by evaluating the patient’s overall health. Our experienced team also provides comprehensive patient education to prevent wounds from recurring.</p><br>
 
 <p class="title"> Wound Care Clinic Services</p>
 <ul>
@@ -443,7 +443,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <p>Wanda Payne, RN is a Certified Wound Care RN with over 10 years of experience.</p>
 <p>
 Cassandra Davis, LVN is also Certified in Wound Care with over 6 years of experience.</p>
-                     </p> 
+                     </p> <br>
                      <p style="text-align: center;">
                            <a class="button small" href="mailto:wandapayne@cmclancaster.com">TELE WOUND CARE</a>
                         </p>
