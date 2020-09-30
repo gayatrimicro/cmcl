@@ -1,8 +1,8 @@
-<!--?php session_start();
-//include('db.php');
-//include('message.php');
+<?php session_start();
+include('db.php');
+include('message.php');
 // include('db.php');
-?-->
+?>
 <!DOCTYPE html>
 <html lang="en-us">
   <!--<![endif]-->
