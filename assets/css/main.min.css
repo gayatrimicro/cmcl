@@ -7590,7 +7590,7 @@ input.input-radio:checked+label:before, input.radio:checked+label:before {
 }
 .page-content blockquote :last-child:after, blockquote :last-child:after {
 	content: '';
-	background: url(../images/icon-grey.png) center right no-repeat;
+	/*background: url(../images/icon-grey.png) center right no-repeat;*/
 	background-size: contain;
 	position: absolute;
 	width: 300px;
@@ -9034,7 +9034,7 @@ display: inline-block;
 }
 .header.mobile-menu .menu-list {
 	position: relative;
-	background-image: url(../images/icon-grey.png);
+	/*background-image: url(../images/icon-grey.png);*/
 	background-repeat: no-repeat;
 	background-position: right -40px bottom;
 	background-size: 200px 200px
