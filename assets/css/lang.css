@@ -139,26 +139,24 @@ body {
 }
 @media only screen and (max-width: 375px){
   #google_translate_element {
-    right: 49px;
+    right: 70px;
   }
   .goog-te-menu-frame{
-        right: 49px !important;
+        right: 70px !important;
   }
 }
 @media only screen and (max-width: 360px){
   #google_translate_element {
     top: 36px !important;
-    right: 49px;
+    right: 66px;
   }
   .header.mobile-menu .menu-wrap .logo .logo-text {
     max-height: 53px;
   }
   .goog-te-menu-frame{
-    right: 49px !important;
+    right: 66px !important;
     width: 106px !important;
     top: 54px !important;
-  }{
-
   }
   .goog-te-menu2-item span{
         font-size: 9pt !important;

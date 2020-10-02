@@ -80,7 +80,9 @@ include('message.php');
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/css/menu.css">
     <link rel="stylesheet" type="text/css" href="assets/css/pstyle.css">
-    <link rel="stylesheet" type="text/css" href="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/css/lang.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/mobmenu.css">
+    <!-- <link rel="stylesheet" type="text/css" href="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/css/lang.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/lang.css">
     <!-- hospital schema -->
     <script type="application/ld+json">
     {
@@ -177,9 +179,10 @@ include('message.php');
         <header class="header desktop-menu desktop-menu-mega" id="main">
           
         </header>
+        <?php include("mobmenu.php"); ?>
         
-        <header class="header mobile-menu" id="mobile">
-        </header>
+        <!-- <header class="header mobile-menu" id="mobile">
+        </header> -->
         <div id="google_translate_element"></div>
       </div>
       <!--  language translator header end -->
@@ -781,6 +784,7 @@ include('message.php');
         <script src='https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/main-daygrid.js'></script>
         <script src='https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/main-timegrid.js'></script>
         <script src='https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/main-list.js'></script>
+        <script src='assets/js/mobmenu.js'></script>
         
         <script type="text/javascript">
         /* <![CDATA[ */
