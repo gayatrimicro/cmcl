@@ -45,6 +45,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <link rel="canonical" href="https://cmclancaster.com/services/bariatric/">
       <link rel="alternate" href="https://cmclancaster.com/services/bariatric/" hreflang="en-us" />
       <link rel="stylesheet" type="text/css" href="../../assets/css/footer.css">
+      <link rel="stylesheet" type="text/css" href="../../assets/css/mobmenu.css">
       <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"></script>
 
       <style type="text/css">
@@ -116,7 +117,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       
 
       <!-- /SEO Ultimate -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <link rel="dns-prefetch" href="https://ajax.googleapis.com/">
       <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
       <link rel="stylesheet" href="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/css/styles.css">
@@ -1141,8 +1142,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
            <header class="header desktop-menu desktop-menu-mega" id="main">
         
         </header>
-        <header class="header mobile-menu" id="mobile">
-        </header>
+        <!-- <header class="header mobile-menu" id="mobile">
+        </header> -->
+        <?php include("../../mobmenu.php"); ?>
         <div id="google_translate_element"></div>
       </div>
        <!--  language translator header end -->
@@ -1817,6 +1819,7 @@ $('#modal-container').click(function(){
       <script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/hero-carousel.js"></script>
       <script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/mobile-menu.js"></script>
        <script type="text/javascript" src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/menu.js"></script>
+       <script src='../../assets/js/mobmenu.js'></script>
    <style type="text/css">
         .git_footer{
           font-size: 70px !important;

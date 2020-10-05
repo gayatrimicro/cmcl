@@ -44,6 +44,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <link rel="canonical" href="https://cmclancaster.com/services/bariatric/">
 
       <link rel="stylesheet" type="text/css" href="../../assets/css/footer.css">
+      <link rel="stylesheet" type="text/css" href="../../assets/css/mobmenu.css">
 
       <link rel="alternate" href="https://cmclancaster.com/services/bariatric/" hreflang="en-us" />
       
@@ -207,7 +208,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     
       </style>
       <!-- /responsive  -->
-      <script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/jquery.js"></script>
+      <!-- <script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/jquery.js"></script> -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/jquery-migrate.min.js"></script>
       <script type="text/javascript">
          /* <![CDATA[ */
@@ -323,8 +325,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
            <header class="header desktop-menu desktop-menu-mega" id="main">
         
         </header>
-        <header class="header mobile-menu" id="mobile">
-        </header>
+        <!-- <header class="header mobile-menu" id="mobile">
+        </header> -->
+        <?php include("../../mobmenu.php"); ?>
         <div id="google_translate_element"></div>
       </div>
        <!--  language translator header end -->
@@ -840,6 +843,7 @@ The physicians and nurses at CMCL have the expertise and experience to provide y
          </footer>
       </div>
       <?php include "../../footer.php" ?>
+      <script src='../../assets/js/mobmenu.js'></script>
       <!--  language translator js start-->
      <script type="text/javascript">
 function googleTranslateElementInit() {

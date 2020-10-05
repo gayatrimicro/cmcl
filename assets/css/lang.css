@@ -39,7 +39,7 @@ body {
 .goog-te-gadget-simple  {
   background-color: #003a70!important;
   border: 1px solid rgba(255,255,255,0.50) !important;
-  padding: 2px!important;
+  padding: 7px 2px!important;
   border-radius: 4px!important;
   font-size: 1rem!important;
   line-height:1rem!important;
@@ -120,18 +120,18 @@ body {
 }
 @media only screen and (max-width: 414px){
   #google_translate_element {
-    top: 40px !important;
+    top: 31px !important;
     right: 64px;
   }
   .goog-te-gadget-simple{
-        width: 105px;
+        width: 116px;
   }
   .goog-te-gadget-simple .goog-te-menu-value span{
     font-size: 10px;
   }
   .goog-te-menu-frame{
     top: 60px !important;
-    width: 105px !important;
+    width: 116px !important;
     left: unset;
     right: 63px !important;
   }
@@ -139,7 +139,7 @@ body {
 }
 @media only screen and (max-width: 375px){
   #google_translate_element {
-    right: 70px;
+    right: 63px;
   }
   .goog-te-menu-frame{
         right: 70px !important;
@@ -147,16 +147,16 @@ body {
 }
 @media only screen and (max-width: 360px){
   #google_translate_element {
-    top: 36px !important;
-    right: 66px;
+    top: 31px !important;
+    right: 61px;
   }
   .header.mobile-menu .menu-wrap .logo .logo-text {
     max-height: 53px;
   }
   .goog-te-menu-frame{
-    right: 66px !important;
-    width: 106px !important;
-    top: 54px !important;
+    right: 61px !important;
+    width: 110px !important;
+    top: 62px !important;
   }
   .goog-te-menu2-item span{
         font-size: 9pt !important;
