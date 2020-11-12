@@ -2,11 +2,12 @@
 // var_dump($_FILES);
 // die();
 
-include "../mailer/vendor/autoload.php";
+include "../mail/vendor/autoload.php";
 
 use PHPMailer\PHPMailer\PHPMailer;
 
-
+// var_dump($_POST);
+// die();
 	/*---------*/
 
 	$cov_fname  = $_POST["covuser_name"];		
@@ -62,7 +63,7 @@ $mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server 
 $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
 $mail->Username   = 'fe@gmicro.us';                     // SMTP username
 $mail->Password   = 'Command55';                               // SMTP password
-$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
+$mail->SMTPSecure = 'TLS';         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
 $mail->Port       = 587;
 	 
 $mail->isHTML(true);
@@ -82,7 +83,7 @@ $mail->Body = $message;
 		//if(mail("content@gmicro.us, fe@gmicro.us", $subject, $message, $headers))
 		echo "Your enquiry has been sent successfully..";
 	} catch (Exception $e) {
-		echo $e;
+		//echo $e;
 		echo "Something went wrong";	 
 		}
 
