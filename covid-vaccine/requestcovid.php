@@ -23,19 +23,19 @@ use PHPMailer\PHPMailer\PHPMailer;
 
 				  <tr><td style='font-size:1.3em;' colspan='2'><strong>Appointment details</strong></td></tr>
 				   <tr>
-					   <td align='left' width='35%'><strong>I am :</strong></td>
+					   <td align='left' width='35%'><strong>Name :</strong></td>
 					   <td align='left' width='60%'>
 					   ".  $cov_fname ."</td>
 					 </tr>
 
 					  <tr>
-					   <td align='left' width='35%'><strong>Patient First Name :</strong></td>
+					   <td align='left' width='35%'><strong> Email :</strong></td>
 					   <td align='left' width='60%'>
 					   ".  $cov_email ."</td>
 					 </tr>
 
 					 <tr>
-					   <td align='left' width='35%'><strong>Email :</strong></td>
+					   <td align='left' width='35%'><strong>Phone number :</strong></td>
 					   <td align='left' width='60%'>
 					   ". $cov_phone1 ." - ". $cov_phone2 ." - ".$cov_phone3."</td>
 					 </tr>
