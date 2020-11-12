@@ -531,6 +531,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/client-detect.js"></script>
 			<script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/lightcase.js"></script>
 			<script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/frontend.js"></script>
+			<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
 				 
 			<meta name="referrer" content="always" />
 			<script type="text/javascript">
@@ -811,7 +813,19 @@ $(document).ready(function () {
     padding-left: 0 !important;
     padding-right: 5px !important;
 }
+.dotted-underline{
+	font-size: 44px !important;
+}
 
+}
+.shwmsg{
+	display: none;
+	margin-top: 25px;
+    color: #fff;
+    font-weight: 600;
+}
+.page-banner .page-banner-content {
+    margin-top: 13%;
 }
 
 </style>
@@ -836,7 +850,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			</div>
 			 <!--  language translator header end -->
 				 <main id="main" class="main-content" role="main">
-						<section class="page-banner page-banner-landing full-page">
+						<section class="page-banner page-banner-landing" style="min-height: 450px !important;">
 							 <div class="bg bg-image"
 									style="background-image: url('../assets/images/covidb.jpg');
 									background-position: 49% 48%;"
@@ -844,7 +858,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							 <div class="row">
 									<div class="column">
 										 <div class="page-banner-content">
-												<h1><span class="dotted-underline">Covid Vaccine</span></h1>
+												<h1><span class="dotted-underline" style="font-family: 'Montserrat', sans-serif;font-size: 55px; font-weight: 900;">Covid Vaccine</span></h1>
 												
 												<br />
 												</p>
@@ -907,11 +921,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 															<div class="column">
 																 <input type="submit" value="Send Message"  name="sub" id="sub" class="wpcf7-form-control wpcf7-submit button block" />
 															</div>
+															
 															 <div class="fip sub">
 														<p class="ferror login"></p> 
 												</div>
 
 													 </div>
+													 <p class="shwmsg">Thank You! We will get back to you soon...</p>
 													 <div class="wpcf7-response-output wpcf7-display-none"></div>
 														<div style="display:none;	margin-top: 10px;	font-size: 18px; color: black;" class="successmesage"  id="successmessage">Your enquiry has been sent successfully</div>
 		 												<div style="display:none;	margin-top: 10px; font-size: 18px; color: black;" class="successmesage"  id="successmessage2" hidden>Please fill up captcha</div>
@@ -1015,12 +1031,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         $(document).ready(function() {
             
         $("#formcovid").submit(function(event){
-        	alert("1");
             
             event.preventDefault();
             var formData = new FormData(this);
          if ($('#covuser_name').val() != "" &&  $('#covuser_email').val() != "" && $('#covphone1').val() != "" && $('#covphone2').val() != "" && $('#covphone3').val() != "") {
-         	alert("2");
+         	
          $.ajax({
                               url:'requestcovid.php',
                               type:'POST',
@@ -1029,9 +1044,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                               contentType: false,
                               success:function(result){
                                 document.getElementById("formcovid").reset();
-                                alert("sent");
-                                // $('.hover_bkgr_fricc').show();
-                                // setTimeout(function(){ $('.hover_bkgr_fricc').hide(); }, 3000);
+                                
+                                $('.shwmsg').show();
+                                setTimeout(function(){ $('.shwmsg').hide(); }, 3000);
                               } 
                     });
 
