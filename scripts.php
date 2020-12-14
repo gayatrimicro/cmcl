@@ -66,7 +66,7 @@ if(($a != NULL AND $b != NULL AND $c != NULL AND $d != NULL) && ((strlen($a)<=20
 	               </table>";  
 		   		$phone = $_POST["phone1"] . $_POST["phone2"] . $_POST["phone3"];       
 				// mail("info@cmclancaster.com", $subject, $message, $headers);
-				mail("content@gmicro.us, seo@gmicro.us", $subject, $message, $headers);
+				mail("content@gmicro.us", $subject, $message, $headers);
 				mysqli_query($conn1,"INSERT INTO leads (id, fname, lname, email, message, business_phone, preferred_contact, topic, origine_from, lead_type, created_by, created_at, updated_by, updated_at, deleted_at, deleted_by) 
 				VALUES (NULL, '$name', '$lastname', '$email', '$message2', NULL, '$phone', NULL, 'contact', '1', NULL, now(), NULL, now(), NULL, NULL)");
 		// delete the cookie so it cannot sent again by refreshing this page

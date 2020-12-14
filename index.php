@@ -190,7 +190,7 @@ include('message.php');
       <!-- Modal form -->
         <div id="ref-pop" class="ref-modal">
 
-          <div class="modal-content">
+          <div class="ref-modal-content">
             <span class="exit">&times;</span>
             <div class="contact-form-wrapper">
                 <h2 class="head-contact" style="color: #fff;">Contact Us</h2>
@@ -309,7 +309,7 @@ include('message.php');
 }
 
 /* Modal Content */
-.modal-content {
+.ref-modal-content {
   background-color: #154a8c!important;
   margin: auto;
   padding: 20px;
@@ -334,6 +334,15 @@ include('message.php');
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+@media (max-width: 789px){
+    .ref-modal-content {
+  background-color: #154a8c!important;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 98%;
+}
 }
 </style>
 
