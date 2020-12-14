@@ -10,7 +10,7 @@ $ph1 = trim($_POST["phone1"]);
 $ph2 = trim($_POST["phone2"]);
 $ph3 = trim($_POST["phone3"]);
 
-include '../db.php';
+include 'db.php';
 
 //if($a != "" OR $b != ""){
 if(($a != NULL AND $b != NULL AND $c != NULL AND $d != NULL) && ((strlen($a)<=20) && (strlen($b)<=20) && (strlen($c)<=50) && (strlen($ph1)==3) && (strlen($ph2)==3) && (strlen($ph3)==4) ) ){
