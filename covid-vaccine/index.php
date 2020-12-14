@@ -486,7 +486,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					}
 				}
 				
-
+.page-banner.page-banner-landing>.row {
+    padding: 150px 0 6 0 !important;
+}
+.page-banner .page-banner-content h1 span {
+    background-image: radial-gradient(circle, #fff0 1.4px, transparent 1.8px) !important;
+}
 			</style>
 			<!-- /SEO Ultimate -->
 			<link rel="dns-prefetch" href="https://ajax.googleapis.com/">

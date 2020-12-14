@@ -7,6 +7,7 @@ include('message.php');
 <html lang="en-us">
   <!--<![endif]-->
   <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta class="foundation-mq-small">
     <meta class="foundation-mq-small-only">
@@ -185,8 +186,100 @@ include('message.php');
         </header> -->
         <div id="google_translate_element"></div>
       </div>
+
+      <!-- Modal form -->
+        <div id="ref-pop" class="ref-modal">
+
+          <div class="modal-content">
+            <span class="exit">&times;</span>
+            <div class="contact-form-wrapper">
+                <h2 class="head-contact" style="color: #fff;">Contact Us</h2>
+                                         <p class="title" style="color: #fff !important">We'd love to hear from you</p>
+                                         <div role="form" class="wpcf7" id="wpcf7-f360-o1" lang="en-US" dir="ltr" name="form-contact" method="post">
+                                                <div class="screen-reader-response"></div>
+                                             <form method="post" action="scripts.php" class="wpcf7-form validable" id="formS">
+                                                     <div style="display: none;">
+                                                            <input type="hidden" name="_wpcf7" value="360" />
+                                                            <input type="hidden" name="_wpcf7_version" value="4.6.1" />
+                                                            <input type="hidden" name="_wpcf7_locale" value="en_US" />
+                                                            <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f360-o1" />
+                                                            <input type="hidden" name="_wpnonce" value="9de41f3e40" />
+                                                     </div>
+                                                     <div class="row">
+                                                            <label class="columns labelphone" style="color: #fff !important">First Name</label>
+                                                            <div class="medium-12 columns" style="height: auto;z-index: 333;">
+                                                            <input type="text" id="user_name" name="user_name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="First name" maxlength="20" required style="height:auto; z-index:9999 !important;opacity: 1;visibility: visible;"/>
+                                                            </div>
+                                                             <label class="columns labelphone" style="color: #fff !important">Last Name</label>
+                                                            <div class="medium-12 columns">
+                                                                 <span class="wpcf7-form-control-wrap text-368"><input type="text" id="user_name1" name="user_name1" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" maxlength="20" placeholder="Last name" required /></span>
+                                                            </div>
+                                                     </div>
+                                                     <div class="row">
+                                                        <label class="columns labelphone" style="color: #fff !important">Email</label>
+                                                            <div class="medium-12 column">
+                                                                 <span class="wpcf7-form-control-wrap email-796"><input id="user_email" type="email" name="user_email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" maxlength="50" aria-invalid="false" placeholder="Email" required /></span>
+                                                            </div>                                                       
+                                                     </div>
+                                                     <div class="row">
+                                                     <label class="columns labelphone" style="color: #fff !important">Phone number</label>
+                                                     <div class="medium-4 small-4 columns">
+                                                                 <span class="wpcf7-form-control-wrap text-368"><input  type="tel"  id="phone1" name="phone1" pattern="^(|[0-9][0-9]*)$" size="3" minlength="3" maxlength="3" class="number wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="###" required /></span>
+                                                            </div>
+                                                            <div class="medium-4 small-4 columns">
+                                                                 <span class="wpcf7-form-control-wrap text-368"><input  type="tel" id="phone2" name="phone2"  pattern="^(|[0-9][0-9]*)$" size="3" minlength="3" maxlength="3" class="number wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="###" required /></span>
+                                                            </div>
+                                                            <div class="medium-4 small-4 columns">
+                                                                 <span class="wpcf7-form-control-wrap text-368"><input  type="tel"  id="phone3" name="phone3"  pattern="^(|[0-9][0-9]*)$" size="4" minlength="4" maxlength="4" class="number wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="####" required /></span>
+                                                                 
+                                                            </div>
+                                                            <div class="hidden columns">
+                                                            </div>
+                                                     </div>
+                                                     <div class="row">
+                                                        <label class="columns labelphone" style="color: #fff !important">How can we help?</label>
+                                                            <div class="column">
+                                                                 <span class="wpcf7-form-control-wrap textarea-837"><textarea id="message2" style="height: 6.75rem !important;" name="message2" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Message" required></textarea></span>
+                                                            </div>
+                                                     </div>
+
+                                                    <!-- captcha code start -->
+                                                     <style type="text/css"> 
+                                                     @media (max-width: 320px){
+                                                     .captcha{
+                                                        margin-left: -40px;
+                                                     }
+                                                     }
+                                                 </style>
+                                                        <div class="row">
+                                                            <div class="medium-6 col-sm-4 column captcha">
+                                                                 <div id="html_element"></div>
+                                                            </div>
+                                                        </div>                                               
+                                                     <br>
+                                                     <div class="row">
+                                                            <div class="column">
+                                                                 <input type="submit" value="Send Message"  name="sub" id="sub" class="wpcf7-form-control wpcf7-submit button block" />
+                                                            </div>
+                                                             <div class="fip sub">
+                                                        <p class="ferror login"></p> 
+                                                </div>
+
+                                                     </div>
+                                                     <div class="wpcf7-response-output wpcf7-display-none"></div>
+                                                        <div style="display:none;   margin-top: 10px;   font-size: 18px; color: black;" class="successmesage"  id="successmessage">Your enquiry has been sent successfully</div>
+                                                        <div style="display:none;   margin-top: 10px; font-size: 18px; color: black;" class="successmesage"  id="successmessage2" hidden>Please fill up captcha</div>
+                                                </form>
+
+                                                <!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
+                                         </div>
+                                    </div>
+          </div>
+
+        </div>
       <!--  language translator header end -->
       <main id="main" class="main-content home-content" role="main">
+
         <section class="page-banner page-banner-landing full-page" style="min-height: 900px;">
           <div class="bg bg-image" style="background-image: url('assets/images/welcome_home.jpg');
           background-position: 49% 20px;background-repeat: no-repeat;background-size: cover;"></div>
@@ -194,7 +287,84 @@ include('message.php');
             <div class="column">
               <div class="page-banner-content">
                 <h1><span class="dotted-underline">Your Healing Journey Begins Here</span></h1>
-                
+                <p>
+                    <button class="button small" id="ref-btn">Get in touch</button>
+                </p>
+                <style>
+
+
+/* The Modal (background) */
+.ref-modal {
+  display: none;
+    position: fixed;
+    z-index: 999999;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #154a8c!important;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+}
+#ref-btn{
+    background-color: transparent !important;
+    border: thin solid #fff !important;
+    border-radius: 50px !important;
+}
+/* The Close Button */
+.exit {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.exit:hover,
+.exit:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+
+
+<script>
+// Get the modal
+var ref_modal = document.getElementById("ref-pop");
+
+// Get the button that opens the modal
+var ref_btn = document.getElementById("ref-btn");
+
+// Get the <span> element that closes the modal
+var ref_span = document.getElementsByClassName("exit")[0];
+
+// When the user clicks the button, open the modal 
+ref_btn.onclick = function() {
+  ref_modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+ref_span.onclick = function() {
+  ref_modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == ref_modal) {
+    ref_modal.style.display = "none";
+  }
+}
+</script>
               </div>
             </div>
           </div>
@@ -270,6 +440,12 @@ include('message.php');
         </ul>
       </div>
     </div>
+
+
+
+
+
+
     <div style="background-color: #fff;">
       <div class="row" >
         <div class="showcase-content small-10 medium-8 small-centered columns">
@@ -597,12 +773,12 @@ include('message.php');
           </div>
         </main>
         
+        
+        
         <footer class="global-footer" id="footer" style="display: none !important;">
           
         </footer>
         
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         
         <?php include "footer.php" ?>
         <script type="text/javascript">
