@@ -970,6 +970,8 @@ window.onclick = function(event) {
         <script src='https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/main-timegrid.js'></script>
         <script src='https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/main-list.js'></script>
         <script src='assets/js/mobmenu.js'></script>
+        <script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/scripts.js"></script>
+        <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"></script>
         
         <script type="text/javascript">
         /* <![CDATA[ */
@@ -977,6 +979,43 @@ window.onclick = function(event) {
         /* ]]> */
         </script>
         <script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/pixel-events.min.js"></script>
-        
+        <script>
+        function onloadCallback() {
+                grecaptcha.render('html_element', {
+                 'sitekey' : '6Lf6fokUAAAAAJWmtCJHV7k6OiDocSmPW-b53wkZ'
+             });
+                /* Place your recaptcha rendering code here */
+        }
+        $('#formS').on('submit', function(e) {
+            if(grecaptcha.getResponse() == "") {
+                    e.preventDefault();
+                    //alert("You can't proceed!");
+                    $("#successmessage2").css("display", "block");
+            } else {
+                    e.preventDefault();
+                    var $form = $( this ),
+                        url = 'scripts.php';
+                        // alert(url);
+                         var user_n = $('#user_name').val();
+                         var user_n1 = $('#user_name1').val();
+                         var user_e = $('#user_email').val();
+                         var user_ph1 = $('#phone1').val();
+                         var user_ph2 = $('#phone2').val();
+                         var user_ph3 = $('#phone3').val();
+                        var user_m = $('#message1').val();
+                        //alert($('#message1').val());
+                 /* Send the data using post with element id name and name2*/
+                 var posting = $.post( url, { user_name: $('#user_name').val(), user_name1: $('#user_name1').val(), user_email: $('#user_email').val(), phone1: $('#phone1').val(), phone2: $('#phone2').val(), phone3: $('#phone3').val(), message2: $('#message2').val() } );
+                 /* Alerts the results */
+                 posting.done(function( data ) {
+                    document.getElementById("successmessage").innerHTML = "Your enquiry has been sent successfully";
+                    $("#successmessage2").css("display", "none");
+                     $("#successmessage").css("display", "block");
+                     var form = document.getElementById("formS");
+                         form.reset();
+                 });
+            }
+        });
+    </script> 
       </body>
     </html>
