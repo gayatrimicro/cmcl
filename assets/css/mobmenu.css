@@ -138,6 +138,7 @@
         padding: 50px 15px;
     border-top: 2px solid #ddd;
     opacity: 0;
+    display: none;
     transition: 0.3s all;
 }
 .MenuShow li{
@@ -196,6 +197,7 @@
 }
 .Opc1{
   opacity: 1;
+  display: block;
 }
 
 }
