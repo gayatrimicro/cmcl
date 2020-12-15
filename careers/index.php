@@ -253,7 +253,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           "addressLocality": "Lancaster",
           "addressRegion": "Texas",
           "postalCode": "TX 75146",
-          "telephone" : "(972) 230-8888"
+          "telephone" : "(214) 475-6078"
           },
       "openingHours": "24/7",
       "image": "https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/images/Neurology.jpg",
@@ -509,7 +509,7 @@ Crescent Medical Center Lancaster is committed to providing a work environment t
                         <p class="new4 git_sub_ttl">Our trained staff doesn't just care for injuries, they care about you.
 
                         </p>
-                       <p class="new4 new3 git_sub_ttl">Call: <a href="tel:(972) 230-8888" class="clr">(972) 230-8888</a> &nbsp;<span class="newline_mail"><span>Email:</span> <a href="mailto:info@cmclancaster.com" class="clr">info@CMCLancaster.com</a> </span></p><br>
+                       <p class="new4 new3 git_sub_ttl">Call: <a href="tel:(214) 475-6078" class="clr">(214) 475-6078</a> &nbsp;<span class="newline_mail"><span>Email:</span> <a href="mailto:info@cmclancaster.com" class="clr">info@CMCLancaster.com</a> </span></p><br>
 
 
                         <p>

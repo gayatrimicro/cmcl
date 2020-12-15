@@ -33,8 +33,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						 });
 				 } catch (e) {}
 			</script>
-			<meta name="description" content="If you have a medical emergency and you require immediate medical assistance, please contact the 24hr helpline at (972) 230-8888. Crescent Medical Center, 2600 W Pleasant Run Rd. Lancaster, TX 75146">
-			<meta property="og:description" content="If you have a medical emergency and you require immediate medical assistance, please contact the 24hr helpline at (972) 230-8888. Crescent Medical Center, 2600 W Pleasant Run Rd. Lancaster, TX 75146">
+			<meta name="description" content="If you have a medical emergency and you require immediate medical assistance, please contact the 24hr helpline at (214) 475-6078. Crescent Medical Center, 2600 W Pleasant Run Rd. Lancaster, TX 75146">
+			<meta property="og:description" content="If you have a medical emergency and you require immediate medical assistance, please contact the 24hr helpline at (214) 475-6078. Crescent Medical Center, 2600 W Pleasant Run Rd. Lancaster, TX 75146">
 			<meta property="og:type" content="website" />
 			<meta property="og:title" content="24/7 Emergency Assistance - Contact US For Medical Emergencies - CMCL" />
 			<meta property="og:url" content="https://cmclancaster.com/C0NTACT_US/" />
@@ -45,7 +45,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<meta property="og:site_name" content="CMC Lancaster" />
 			<meta name="twitter:card" content="summary" />
 			<meta name="twitter:title" content="24/7 Emergency Assistance - Contact US For Medical Emergencies - CMCL"  >
-			<meta name="twitter:description" content="If you have a medical emergency and you require immediate medical assistance, please contact the 24hr helpline at (972) 230-8888. Crescent Medical Center, 2600 W Pleasant Run Rd. Lancaster, TX 75146" >
+			<meta name="twitter:description" content="If you have a medical emergency and you require immediate medical assistance, please contact the 24hr helpline at (214) 475-6078. Crescent Medical Center, 2600 W Pleasant Run Rd. Lancaster, TX 75146" >
 			<style type="text/css">
 				 dl.variation, dl.variation p
 				 {  font-size: .875rem !important;
@@ -688,7 +688,7 @@ $(document).ready(function () {
 					"addressLocality": "Lancaster",
 					"addressRegion": "Texas",
 					"postalCode": "TX 75146",
-					"telephone" : "(972) 230-8888"
+					"telephone" : "(214) 475-6078"
 					},
 			"openingHours": "24/7",
 			"image": "https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/images/Neurology.jpg",
@@ -817,7 +817,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 										 </p>
 										 <dl class="dl-horizontal">
 												<dt style="color:#000;">Phone:</dt>
-												<dd><a href="tel:9722308888"> (972) 230-8888 </a></dd>
+												<dd><a href="tel:(214) 475-6078"> (214) 475-6078 </a></dd>
 											 
 												<dt style="color:#000;">Email:</dt>
 												<dd><a href="mailto:info@cmcl.us">info@CMCLancaster.com</a></dd>

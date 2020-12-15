@@ -371,7 +371,7 @@ The physicians and nurses at CMCL have the expertise and experience to provide y
                         <p class="new4 git_sub_ttl">Our trained staff doesn't just care for injuries, they care about you.
 
                         </p>
-                       <p class="new4 new3 git_sub_ttl">Call: <a href="tel:(972) 230-8888" class="clr">(972) 230-8888</a> &nbsp;<span class="newline_mail"><span>Email:</span> <a href="mailto:info@cmclancaster.com" class="clr">info@CMCLancaster.com</a> </span></p><br>
+                       <p class="new4 new3 git_sub_ttl">Call: <a href="tel:(214) 475-6078" class="clr">(214) 475-6078</a> &nbsp;<span class="newline_mail"><span>Email:</span> <a href="mailto:info@cmclancaster.com" class="clr">info@CMCLancaster.com</a> </span></p><br>
 
 
                         <p>
