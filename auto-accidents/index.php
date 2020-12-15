@@ -819,7 +819,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                      <p class="title">Welcome to Crescent Medical Center Lancaster</p>
                      <div class="text">
                         <br>
-                        <a class="button" href="../C0NTACT_US/">CONTACT US</a>          
+                        <a class="button" href="../contact-us/">CONTACT US</a>          
                      </div>
                   </div>
                </div>
@@ -1934,7 +1934,7 @@ $(document).ready(function() {
      <li class="li-list"><a href="/bill-rights/" class="inline-inline-links footer-link">Bill of Rights</a></li>
      <li class="li-list"><a href="/workers-comp/" class="inline-inline-links footer-link">Worker's Comp</a></li>
      <li class="li-list"><a href="/physician/" class="inline-inline-links footer-link">Physicians</a></li>
-     <li class="li-list"><a href="/C0NTACT_US/" class="inline-inline-links footer-link">Contact Us</a></li>
+     <li class="li-list"><a href="/contact-us/" class="inline-inline-links footer-link">Contact Us</a></li>
      <li class="li-list"><a href="/news/" class="inline-inline-links footer-link">News & Events</a></li>
      <li class="li-list"><a href="/blog/" class="inline-inline-links footer-link">Blog</a></li> 
     </ul>
@@ -2011,7 +2011,7 @@ $(document).ready(function() {
      <li class="li-list"><a href="/bill-rights/" class="inline-inline-links footer-link">Bill of Rights</a></li>
      <li class="li-list"><a href="/workers-comp/" class="inline-inline-links footer-link">Worker's Comp</a></li>
      <li class="li-list"><a href="/physician/" class="inline-inline-links footer-link">Physicians</a></li>
-     <li class="li-list"><a href="/C0NTACT_US/" class="inline-inline-links footer-link">Contact Us</a></li>
+     <li class="li-list"><a href="/contact-us/" class="inline-inline-links footer-link">Contact Us</a></li>
      <li class="li-list"><a href="/news/" class="inline-inline-links footer-link">News & Events</a></li>
      <li class="li-list"><a href="/blog/" class="inline-inline-links footer-link">Blog</a></li> 
     </ul>
@@ -2032,7 +2032,7 @@ $(document).ready(function() {
 <a href="/workers-comp/" class="inline-inline-links footer-link">Worker's Comp</a><span class="pipes">|</span>
 
 <a href="/physician/" class="inline-inline-links footer-link">Physicians</a><span class="pipes">|</span>
-<a href="/C0NTACT_US/" class="inline-inline-links footer-link">Contact Us</a><span class="pipes">|</span>
+<a href="/contact-us/" class="inline-inline-links footer-link">Contact Us</a><span class="pipes">|</span>
 <a href="/news/" class="inline-inline-links footer-link">News & Events</a><span class="pipes">|</span>
 <a href="/blog/" class="inline-inline-links footer-link">Blog</a>
 

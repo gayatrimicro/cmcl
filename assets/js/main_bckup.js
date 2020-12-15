@@ -408,7 +408,7 @@ jQuery(document).ready(function($) {
         '</li>' +
         
         '<li class="menu-item">' +
-        ' <a href="/C0NTACT_US/">Contact Us</a>' +
+        ' <a href="/contact-us/">Contact Us</a>' +
         '</li>' +
 
 
@@ -724,7 +724,7 @@ jQuery(document).ready(function($) {
         '<a href="/workers-comp/">worker&apos;s Comp</a>' +
         '</li>' +
         '<li class="menu-item">' +
-        '<a href="/C0NTACT_US/">Contact</a>' +
+        '<a href="/contact-us/">Contact</a>' +
         '</li>' +
 
         '<li class="menu-item menu-item-has-children">' +
@@ -801,7 +801,7 @@ jQuery(document).ready(function($) {
         '<a href="/bill-rights/">Bill of Rights</a><br>' +
         '<a href="/workers-comp/">Worker&apos;s Comp</a><br>' +
         '<a href="/physician/">Physicians</a><br>' +
-        '<a href="/C0NTACT_US/">Contact Us</a><br>' +
+        '<a href="/contact-us/">Contact Us</a><br>' +
         '<a href="/news/">News & Events </a><br>' +
          '<a href="/blog/">Blog </a></p>' +
         '</div>' +

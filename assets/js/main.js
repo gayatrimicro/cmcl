@@ -529,7 +529,7 @@ jQuery(document).ready(function($) {
         '</li>' +
         
         '<li class="menu-item">' +
-        ' <a href="/C0NTACT_US/">Contact Us</a>' +
+        ' <a href="/contact-us/">Contact Us</a>' +
         '</li>' +
 
 
@@ -938,7 +938,7 @@ jQuery(document).ready(function($) {
         '<a href="/blog/">Blog</a>' +
         '</li>' +
         '<li class="menu-item">' +
-        '<a href="/C0NTACT_US/">Contact</a>' +
+        '<a href="/contact-us/">Contact</a>' +
         '</li>' +
 
         '<li class="menu-item menu-item-has-children">' +
@@ -1111,7 +1111,7 @@ var footer ='<div class="container-fluid p-2 custom-back">'+
 '<a href="/workers-comp/" class="inline-inline-links footer-link">Workers Comp</a><span class="pipes">|</span>'+
 
 '<a href="/physician/" class="inline-inline-links footer-link">Physicians</a><span class="pipes">|</span>'+
-'<a href="/C0NTACT_US/" class="inline-inline-links footer-link">Contact Us</a><span class="pipes">|</span>'+
+'<a href="/contact-us/" class="inline-inline-links footer-link">Contact Us</a><span class="pipes">|</span>'+
 '<a href="/news/" class="inline-inline-links footer-link">News & Events</a><span class="pipes">|</span>'+
 '<a href="/blog/" class="inline-inline-links footer-link">Blog</a>'+
 
@@ -1217,7 +1217,7 @@ var footer ='<div class="container-fluid p-2 custom-back">'+
 //         '<a href="/bill-rights/">Bill of Rights</a><br>' +
 //         '<a href="/workers-comp/">Worker&apos;s Comp</a><br>' +
 //         '<a href="/physician/">Physicians</a><br>' +
-//         '<a href="/C0NTACT_US/">Contact Us</a><br>' +
+//         '<a href="/contact-us/">Contact Us</a><br>' +
 //         '<a href="/news/">News & Events </a><br>' +
 //          '<a href="/blog/">Blog </a></p>' +
          
@@ -1406,7 +1406,7 @@ var footer ='<div class="container-fluid p-2 custom-back">'+
 '<a href="/workers-comp/" class="inline-inline-links footer-link">Workers Comp</a><span class="pipes">|</span>'+
 
 '<a href="/physician/" class="inline-inline-links footer-link">Physicians</a><span class="pipes">|</span>'+
-'<a href="/C0NTACT_US/" class="inline-inline-links footer-link">Contact Us</a><span class="pipes">|</span>'+
+'<a href="/contact-us/" class="inline-inline-links footer-link">Contact Us</a><span class="pipes">|</span>'+
 '<a href="/news/" class="inline-inline-links footer-link">News & Events</a><span class="pipes">|</span>'+
 '<a href="/blog/" class="inline-inline-links footer-link">Blog</a>'+
 

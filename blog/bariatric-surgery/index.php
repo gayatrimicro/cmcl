@@ -390,7 +390,7 @@ Besides long lasting weight loss which is around 70% - 75% less than the weight 
                      <p class="title">Welcome to Crescent Medical Center Lancaster</p>
                      <div class="text">
                         <br>
-                        <a class="button" href="../../C0NTACT_US/">CONTACT US</a>          
+                        <a class="button" href="../../contact-us/">CONTACT US</a>          
                      </div>
                   </div>
                </div>

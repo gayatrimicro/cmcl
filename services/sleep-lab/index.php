@@ -555,7 +555,7 @@ Once you have become settled in your room, you will be asked to complete some pa
                      <div class="text">
                         <p>You are our guest and we want you to feel comfortable and confident in your choice of facility.
                         </p>
-                        <a class="button" href="../../C0NTACT_US/">Contact Us</a>             
+                        <a class="button" href="../../contact-us/">Contact Us</a>             
                      </div>
                   </div>
                </div>

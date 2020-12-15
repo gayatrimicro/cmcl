@@ -400,7 +400,7 @@ You can’t afford to take your insomnia or other sleep problems lightly and rel
                      <p class="title">Welcome to Crescent Medical Center Lancaster</p>
                      <div class="text">
                         <br>
-                        <a class="button" href="../../C0NTACT_US/">CONTACT US</a>          
+                        <a class="button" href="../../contact-us/">CONTACT US</a>          
                      </div>
                   </div>
                </div>

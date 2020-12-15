@@ -288,7 +288,7 @@ include('message.php');
               <div class="page-banner-content">
                 <h1><span class="dotted-underline">Your Healing Journey Begins Here</span></h1>
                 <p>
-                    <button class="button small" id="ref-btn">Get in touch</button>
+                    <button class="button small" id="ref-btn">Request a Callback</button>
                 </p>
                 <style>
 
@@ -320,6 +320,7 @@ include('message.php');
     background-color: transparent !important;
     border: thin solid #fff !important;
     border-radius: 50px !important;
+    padding: 1rem 2.75rem !important
 }
 /* The Close Button */
 .exit {
@@ -426,7 +427,7 @@ window.onclick = function(event) {
               </div>
               <div class="mt-content">
                 <p class="showcase-box-title">REFERRAL FORMS</p>
-                <p class="small-desc">To refer your patient to CMCL, complete the appropriate referral form. If you are a patient, please use our <a href="/C0NTACT_US/">appointment form.</a></p>
+                <p class="small-desc">To refer your patient to CMCL, complete the appropriate referral form. If you are a patient, please use our <a href="/contact-us/">appointment form.</a></p>
               </div>
             </li>
             <li>
@@ -552,7 +553,7 @@ window.onclick = function(event) {
             Please don't hesitate to contact us either by email or phone to schedule an appointment. We are available at any time day or night.
           </p>
           <p>
-            <a class="button small" href="C0NTACT_US/">LEARN MORE</a>
+            <a class="button small" href="contact-us/">LEARN MORE</a>
           </p><br><br>
         </div>
       </div>

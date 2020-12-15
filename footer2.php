@@ -838,7 +838,7 @@ $(document).ready(function() {
      <li class="li-list"><a href="/bill-rights/" class="inline-inline-links footer-link">Bill of Rights</a></li>
      <li class="li-list"><a href="/workers-comp/" class="inline-inline-links footer-link">Worker's Comp</a></li>
      <li class="li-list"><a href="/physician/" class="inline-inline-links footer-link">Physicians</a></li>
-     <li class="li-list"><a href="/C0NTACT_US/" class="inline-inline-links footer-link">Contact Us</a></li>
+     <li class="li-list"><a href="/contact-us/" class="inline-inline-links footer-link">Contact Us</a></li>
      <li class="li-list"><a href="/news/" class="inline-inline-links footer-link">News & Events</a></li>
      <li class="li-list"><a href="/blog/" class="inline-inline-links footer-link">Blog</a></li> 
     </ul>
@@ -915,7 +915,7 @@ $(document).ready(function() {
      <li class="li-list"><a href="/bill-rights/" class="inline-inline-links footer-link">Bill of Rights</a></li>
      <li class="li-list"><a href="/workers-comp/" class="inline-inline-links footer-link">Worker's Comp</a></li>
      <li class="li-list"><a href="/physician/" class="inline-inline-links footer-link">Physicians</a></li>
-     <li class="li-list"><a href="/C0NTACT_US/" class="inline-inline-links footer-link">Contact Us</a></li>
+     <li class="li-list"><a href="/contact-us/" class="inline-inline-links footer-link">Contact Us</a></li>
      <li class="li-list"><a href="/news/" class="inline-inline-links footer-link">News & Events</a></li>
      <li class="li-list"><a href="/blog/" class="inline-inline-links footer-link">Blog</a></li> 
     </ul>
@@ -936,7 +936,7 @@ $(document).ready(function() {
 <a href="/workers-comp/" class="inline-inline-links footer-link">Worker's Comp</a><span class="pipes">|</span>
 
 <a href="/physician/" class="inline-inline-links footer-link">Physicians</a><span class="pipes">|</span>
-<a href="/C0NTACT_US/" class="inline-inline-links footer-link">Contact Us</a><span class="pipes">|</span>
+<a href="/contact-us/" class="inline-inline-links footer-link">Contact Us</a><span class="pipes">|</span>
 <a href="/news/" class="inline-inline-links footer-link">News & Events</a><span class="pipes">|</span>
 <a href="/blog/" class="inline-inline-links footer-link">Blog</a>
 

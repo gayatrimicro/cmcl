@@ -105,7 +105,7 @@
 					<a href="/blog/">Blog</a>
 				</li>
 				<li>
-					<a href="/C0NTACT_US/">Contact</a>
+					<a href="/contact-us/">Contact</a>
 				</li>
 				<li class="PosLi">
 					<a href="javascript:void(0)">Careers</a>

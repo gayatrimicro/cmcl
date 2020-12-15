@@ -458,7 +458,7 @@ Another precaution is very important for the patient is that she must not be eng
                      <p class="title">Welcome to Crescent Medical Center Lancaster</p>
                      <div class="text">
                         <br>
-                        <a class="button" href="../../C0NTACT_US/">CONTACT US</a>          
+                        <a class="button" href="../../contact-us/">CONTACT US</a>          
                      </div>
                   </div>
                </div>
