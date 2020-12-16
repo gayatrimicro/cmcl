@@ -229,7 +229,7 @@ a {
           "addressLocality": "Lancaster",
           "addressRegion": "Texas",
           "postalCode": "TX 75146",
-          "telephone" : "(214) 475-6078"
+          "telephone" : "(972) 230-8888"
           },
       "openingHours": "24/7",
       "image": "https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/images/Neurology.jpg",

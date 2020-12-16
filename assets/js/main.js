@@ -612,7 +612,7 @@ jQuery(document).ready(function($) {
         
 //     // '<div class="secondary-menu">' +
 //     // '<div class="translate-timing-div">'+
-//     // 'Monday – Sunday <span style="">Open 24/7</span> <a href="tel:(214) 475-6078"> (214) 475-6078</a>'+
+//     // 'Monday – Sunday <span style="">Open 24/7</span> <a href="tel:(972) 230-8888"> (972) 230-8888</a>'+
 //     // '</div>'+
     
 //     '<div class="translateselect" id="google_translate_element">'+
@@ -1035,7 +1035,7 @@ var footer ='<div class="container-fluid p-2 custom-back">'+
      '<ul class="ul-list">'+
      '<li class="li-list"><a href="#" class="footer-link">Monday - Sunday</a></li>'+
      '<li class="li-list"><a href="#" class="footer-link">Open 24/7</a></li>'+
-     '<li class="li-list"><a href="tel:(214) 475-6078" class="iBridge footer-link" class="footer-link iBridge">(214) 475-6078</a></li>'+
+     '<li class="li-list"><a href="tel:(972) 230-8888" class="iBridge footer-link" class="footer-link iBridge">(972) 230-8888</a></li>'+
      
     '</ul>'+
 
@@ -1243,7 +1243,7 @@ var footer ='<div class="container-fluid p-2 custom-back">'+
         // 'Open 24/7<br>' +
 
         // '' +
-        // '<a href="tel:(214) 475-6078">(214) 475-6078</a></p>' +
+        // '<a href="tel:(972) 230-8888">(972) 230-8888</a></p>' +
 
 
         // '</div>' +
@@ -1330,7 +1330,7 @@ var footer ='<div class="container-fluid p-2 custom-back">'+
      '<ul class="ul-list">'+
      '<li class="li-list"><a href="#" class="footer-link">Monday - Sunday</a></li>'+
      '<li class="li-list"><a href="#" class="footer-link">Open 24/7</a></li>'+
-     '<li class="li-list"><a href="tel:(214) 475-6078" class="iBridge footer-link" class="footer-link iBridge">(214) 475-6078</a></li>'+
+     '<li class="li-list"><a href="tel:(972) 230-8888" class="iBridge footer-link" class="footer-link iBridge">(972) 230-8888</a></li>'+
      
     '</ul>'+
 

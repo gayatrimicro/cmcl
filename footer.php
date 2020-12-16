@@ -810,7 +810,7 @@ $(document).ready(function() {
      <ul class="ul-list">
      <li class="li-list">Monday - Sunday</li>
      <li class="li-list">Open 24/7</li>
-     <li class="li-list"><a href="tel:(214) 475-6078" class="iBridge footer-link" class="footer-link iBridge">(214) 475-6078</a></li>
+     <li class="li-list"><a href="tel:(972) 230-8888" class="iBridge footer-link" class="footer-link iBridge">(972) 230-8888</a></li>
       <li class="li-list" style="visibility: hidden;">.</li>
      
     </ul>

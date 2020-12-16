@@ -940,7 +940,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 										 <p class="title" style="color: #fff !important">We'd love to hear from you</p>
 										 <div role="form" class="wpcf7" id="wpcf7-f360-o1" lang="en-US" dir="ltr" name="form-contact" method="post">
 												<div class="screen-reader-response"></div>
-											 <form method="post" action="scripts.php" class="wpcf7-form validable" id="formS">
+											 <form method="post" class="wpcf7-form validable" id="formSm">
 													 <div style="display: none;">
 															<input type="hidden" name="_wpcf7" value="360" />
 															<input type="hidden" name="_wpcf7_version" value="4.6.1" />
@@ -950,7 +950,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 													 </div>
 													 <div class="row">
 															<label class="columns labelphone" style="color: #fff !important">First Name</label>
-															<div class="medium-12 columns" style="height: auto;z-index: 333;">
+															<div class="medium-12 columns" style="height: auto;z-index: 33;">
 															<input type="text" id="user_name" name="user_name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="First name" maxlength="20" required style="height:auto; z-index:9999 !important;opacity: 1;visibility: visible;"/>
 															</div>
 															 <label class="columns labelphone" style="color: #fff !important">Last Name</label>
@@ -1013,6 +1013,42 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 														<div style="display:none;	margin-top: 10px;	font-size: 18px; color: black;" class="successmesage"  id="successmessage">Your enquiry has been sent successfully</div>
 		 												<div style="display:none;	margin-top: 10px; font-size: 18px; color: black;" class="successmesage"  id="successmessage2" hidden>Please fill up captcha</div>
 												</form>
+
+
+												<script>
+        
+        $(document).ready(function() {
+            
+        $("#formSm").submit(function(event){
+            
+            event.preventDefault();
+            
+            var formData = new FormData(this);
+         if ( $('#user_name').val() != "" && $('#user_name1').val() != "" && $('#user_email').val() != "" && $('#phone1').val() != "" && $('#phone2').val() != "" && $('#phone3').val() != "" && $('#message2').val() != "" ) {
+         $.ajax({
+                              url:'mail-send.php',
+                              type:'POST',
+                              data:formData,
+                              processData: false,
+                              contentType: false,
+                              success:function(result){
+                                document.getElementById("formSm").reset();
+                                $('.hover_bkgr_fricc').show();
+                                setTimeout(function(){ $('.hover_bkgr_fricc').hide(); }, 3000);
+                              } 
+                    });
+
+         }
+         else{
+              alert("All fields are mandatory");
+                  }
+
+
+        });
+    });
+
+
+    </script>
 
 												<!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
 										 </div>
@@ -1152,7 +1188,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					e.preventDefault();
 					//alert("You can't proceed!");
 					$("#successmessage2").css("display", "block");
-			} else {
+			} else { 
 					e.preventDefault();
 					var $form = $( this ),
 						url = 'scripts.php';

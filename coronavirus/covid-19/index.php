@@ -17,20 +17,20 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Coronavirus Information & Resources | CMC Lancaster</title>
 
-<meta name="description" content="Contact the Crescent Medical Centre to get medical assistance if you suspect that you may have the COVID-19. Call (214) 475-6078 for a quick consultation." >
+<meta name="description" content="Contact the Crescent Medical Centre to get medical assistance if you suspect that you may have the COVID-19. Call (972) 230-8888 for a quick consultation." >
 
 <meta name="keywords" content="Coronavirus, Wuhan virus, covid19, social distancing, quarantine, coronavirus disease 2019, healthcare professionals fighting coronavirus, how coronavirus spreads, how to prevent covid 19, novel coronavirus, face masks, symptoms of coronavirus, test for coronavirus">
 <meta property="og:locale" content="en_US">
 <meta name="og:site_name" content="CMC Lancaster"/>
 <meta property="og:type" content="Website">
 <meta property="og:title" content="Coronavirus Information & Resources | CMC Lancaster">
-<meta property="og:description" content="Contact the Crescent Medical Centre to get medical assistance if you suspect that you may have the COVID-19. Call (214) 475-6078 for a quick consultation.">
+<meta property="og:description" content="Contact the Crescent Medical Centre to get medical assistance if you suspect that you may have the COVID-19. Call (972) 230-8888 for a quick consultation.">
 <meta property="og:url" content="https://cmclancaster.com/coronavirus/covid-19">
 <meta property="og:image" content="">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Coronavirus Information & Resources | CMC Lancaster">
-<meta name="twitter:description" content="Contact the Crescent Medical Centre to get medical assistance if you suspect that you may have the COVID-19. Call (214) 475-6078 for a quick consultation.">
+<meta name="twitter:description" content="Contact the Crescent Medical Centre to get medical assistance if you suspect that you may have the COVID-19. Call (972) 230-8888 for a quick consultation.">
 <meta name="twitter:image" content="">
 <meta name="twitter:url" content="https://cmclancaster.com/coronavirus/covid-19">
 
@@ -352,7 +352,7 @@
           "addressLocality": "Lancaster",
           "addressRegion": "Texas",
           "postalCode": "TX 75146",
-          "telephone" : "(214) 475-6078"
+          "telephone" : "(972) 230-8888"
           },
       "openingHours": "24/7",
       "image": "https://cmclancaster.com/assets/images/corona-banner.jpg",
@@ -472,7 +472,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                      </ul>
                      <br>
                     
-                    <p class="text-center-content" >Call (214) 475-6078 for quick medical assistance, Monday through Sunday 24/7 if you feel that you have been experiencing cough or difficulty breathing and a fever. 
+                    <p class="text-center-content" >Call (972) 230-8888 for quick medical assistance, Monday through Sunday 24/7 if you feel that you have been experiencing cough or difficulty breathing and a fever. 
                       
                       
 
@@ -521,7 +521,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </p>
 
                         <p class="justify-txt"><strong>
-                          Call <a href="tel:(214) 475-6078">(214) 475-6078 </a> for quick medical assistance, Monday through Sunday 24/7 if you feel that you have been experiencing cough or difficulty breathing and a fever.
+                          Call <a href="tel:(972) 230-8888">(972) 230-8888 </a> for quick medical assistance, Monday through Sunday 24/7 if you feel that you have been experiencing cough or difficulty breathing and a fever.
                           </strong>
                         </p>
                         <br>
@@ -648,7 +648,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       <p>The official test for identifying the COVID-19 is the Real Time Reverse Transcriptase PCR (RT-PCR) Diagnostic Panels. This test provides accurate results within 4-6 hours. Your local medical practitioner for tests provided by the CDC or commercial manufacturers. </p>
 
                       <p>You should get tested for the Coronavirus if you exhibit any symptoms for the Coronavirus. Most people recover at home itself since they show mild symptoms and there’s no cure to the disease yet. </p>
-                      <p><strong>Call us at <a href="tel:(214) 475-6078"> (214) 475-6078</a> for quick medical assistance, Monday through Sunday 24/7 if you feel that you have been experiencing cough or difficulty breathing and a fever. </strong></p>
+                      <p><strong>Call us at <a href="tel:(972) 230-8888"> (972) 230-8888</a> for quick medical assistance, Monday through Sunday 24/7 if you feel that you have been experiencing cough or difficulty breathing and a fever. </strong></p>
                       
                       
                       
@@ -793,7 +793,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <strong>-</strong> Take part in relief efforts of providing food, clothing, and essential care to the homeless and less fortunate people.<br><br>
 
 
-        <strong>Call us at <a href="tel:(214) 475-6078"> (214) 475-6078</a> for quick medical assistance, Monday through Sunday 24/7 if you feel that you have been experiencing cough or difficulty breathing and a fever. </strong><br><br>
+        <strong>Call us at <a href="tel:(972) 230-8888"> (972) 230-8888</a> for quick medical assistance, Monday through Sunday 24/7 if you feel that you have been experiencing cough or difficulty breathing and a fever. </strong><br><br>
 
 
         Other emergency helpline numbers for the mentally ill -<br><br>
@@ -922,14 +922,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                <div class="row">
                   <div class="content-block-content small-10 large-8 small-centered column get_in_touch_content" >
                      
-                     <p class="title git_footer">Call us at<a href="tel:(214) 475-6078" class="clr"> (214) 475-6078</a><br></p>
+                     <p class="title git_footer">Call us at<a href="tel:(972) 230-8888" class="clr"> (972) 230-8888</a><br></p>
                      <p> for quick medical assistance, Monday through Sunday 24/7 if you feel that you have been experiencing persistent cough or difficulty breathing and a fever. </p>
                      <div class="text">
                         <!-- <p class="new4 git_sub_ttl">.
 
                         </p> -->
                       <!-- <p class="new4 new3 git_sub_ttl" style="line-height: 1.5 !important;">
-                        Call: <a href="tel:(214) 475-6078" class="clr">(214) 475-6078</a> &nbsp;<span class="newline_mail">
+                        Call: <a href="tel:(972) 230-8888" class="clr">(972) 230-8888</a> &nbsp;<span class="newline_mail">
                           <br/>
                           <span style="white-space: pre;" >Email: <a href="mailto:autoinjury@cmclancaster.com" class="clr">autoinjury@cmclancaster.com</a> </span>
 
@@ -1992,7 +1992,7 @@ $(document).ready(function() {
      <ul class="ul-list">
      <li class="li-list">Monday - Sunday</li>
      <li class="li-list">Open 24/7</li>
-     <li class="li-list"><a href="tel:(214) 475-6078" class="iBridge footer-link" class="footer-link iBridge">(214) 475-6078</a></li>
+     <li class="li-list"><a href="tel:(972) 230-8888" class="iBridge footer-link" class="footer-link iBridge">(972) 230-8888</a></li>
       <li class="li-list" style="visibility: hidden;">.</li>
      
     </ul>
