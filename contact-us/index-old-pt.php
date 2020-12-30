@@ -21,8 +21,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-			<!-- <script src="https://code.jquery.com/jquery-3.4.1.js"></script> -->
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+			<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
 
 			<link rel="shortcut icon" href="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/images/favicon.png" type="image/x-icon">
@@ -518,12 +517,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/jquery-2.1.0.js" integrity="sha256-D6d1KSapXjq2tfZ6Ie9AYozkRHyB3fT2ys9mO2+4Wvc=" crossorigin="anonymous"></script>
 			<!-- <script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/jquery.js"></script> -->
 			<script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/jquery-migrate.min.js"></script>
-			<!-- <script type='text/javascript'>
+			<script type='text/javascript'>
 				 /* <![CDATA[ */
 				 var mailchimp_public_data = {"site_url":""};
-				 
+				 };
 				 /* ]]> */
-			</script> -->
+			</script>
 			<script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/mailchimp-woocommerce-public.min.js"></script>
 			<script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/script.js"></script>
 			<script src="https://s3.ap-south-1.amazonaws.com/gwsprojects/websites/crescent/assets/js/modernizr.js"></script>
@@ -941,7 +940,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 										 <p class="title" style="color: #fff !important">We'd love to hear from you</p>
 										 <div role="form" class="wpcf7" id="wpcf7-f360-o1" lang="en-US" dir="ltr" name="form-contact" method="post">
 												<div class="screen-reader-response"></div>
-											 <form  class="wpcf7-form validable" id="formS">
+											 <form method="post" action="scripts.php" class="wpcf7-form validable" id="formS">
 													 <div style="display: none;">
 															<input type="hidden" name="_wpcf7" value="360" />
 															<input type="hidden" name="_wpcf7_version" value="4.6.1" />
@@ -951,7 +950,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 													 </div>
 													 <div class="row">
 															<label class="columns labelphone" style="color: #fff !important">First Name</label>
-															<div class="medium-12 columns" style="height: auto;z-index: 3;">
+															<div class="medium-12 columns" style="height: auto;z-index: 333;">
 															<input type="text" id="user_name" name="user_name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="First name" maxlength="20" required style="height:auto; z-index:9999 !important;opacity: 1;visibility: visible;"/>
 															</div>
 															 <label class="columns labelphone" style="color: #fff !important">Last Name</label>
@@ -995,11 +994,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 													 }
 													 }
 												 </style>
-														<!-- <div class="row">
+														<div class="row">
 															<div class="medium-6 col-sm-4 column captcha">
 																 <div id="html_element"></div>
 															</div>
-														</div>	 -->											 
+														</div>												 
 													 <br>
 													 <div class="row">
 															<div class="column">
@@ -1148,62 +1147,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			 });
 				/* Place your recaptcha rendering code here */
 		}
-	 	// $('#formS').on('submit', function(e) {
-	 	$("#formS").submit(function(event){
-			// if(grecaptcha.getResponse() == "") {
-			// 		e.preventDefault();
-			// 		alert("You can't proceed!");
-			// } else {
-					// e.preventDefault();
-					// var $form = $( this ),
-					// 	url = 'scripts.php';
-					// 	 var user_n = $('#user_name').val();
-					// 	 var user_n1 = $('#user_name1').val();
-					// 	 var user_e = $('#user_email').val();
-					// 	 var user_ph1 = $('#phone1').val();
-					// 	 var user_ph2 = $('#phone2').val();
-					// 	 var user_ph3 = $('#phone3').val();
-					// 	var user_m = $('#message1').val();
-
-				 // var posting = $.post( url, { user_name: $('#user_name').val(), user_name1: $('#user_name1').val(), user_email: $('#user_email').val(), phone1: $('#phone1').val(), phone2: $('#phone2').val(), phone3: $('#phone3').val(), message2: $('#message2').val() } );
-
-				 // posting.done(function( data ) {
-					// document.getElementById("successmessage").innerHTML = "Your enquiry has been sent successfully";
-					// $("#successmessage2").css("display", "none");
-					//  $("#successmessage").css("display", "block");
-					//  var form = document.getElementById("formS");
-					// 	 form.reset();
-				 // });
-				 event.preventDefault();
-            // var contrdio=$('input[name="cont_i_am"]').length;
-            // var contrdio_second=$('input[name="cont_mri"]').length;
-            
-            // var formData = new FormData(this);    //this is mail liner
-            var formdata = $('#formS').serialize();
-            // var formdata = $('#formS').serialize();
-            alert(formdata);
-         if ($('#user_name').val() != "" && $('#user_name1').val() != "" && $('#user_email').val() != "" && $('#phone1').val() != "" && $('#phone2').val() != "" && $('#phone3').val() != "" && $('#message2').val() != "") {
-         $.ajax({
-                              url:'scripts.php',
-                              type:'POST',
-                              data:formData,
-                              processData: false,
-                              contentType: false,
-                              success:function(result){
-            						alert("Success");
-                                
-                                $('.hover_bkgr_fricc').show();
-                                setTimeout(function(){ $('.hover_bkgr_fricc').hide(); }, 3000);
-                                $("#successmessage").css("display", "block");
-                                document.getElementById("formS").reset();
-                              } 
-                    });
-
-         }
-         else{
-              alert("All fields are mandatory");
-                  }
-			// }
+	 	$('#formS').on('submit', function(e) {
+			if(grecaptcha.getResponse() == "") {
+					e.preventDefault();
+					//alert("You can't proceed!");
+					$("#successmessage2").css("display", "block");
+			} else {
+					e.preventDefault();
+					var $form = $( this ),
+						url = 'scripts.php';
+						// alert(url);
+						 var user_n = $('#user_name').val();
+						 var user_n1 = $('#user_name1').val();
+						 var user_e = $('#user_email').val();
+						 var user_ph1 = $('#phone1').val();
+						 var user_ph2 = $('#phone2').val();
+						 var user_ph3 = $('#phone3').val();
+						var user_m = $('#message1').val();
+						//alert($('#message1').val());
+				 /* Send the data using post with element id name and name2*/
+				 var posting = $.post( url, { user_name: $('#user_name').val(), user_name1: $('#user_name1').val(), user_email: $('#user_email').val(), phone1: $('#phone1').val(), phone2: $('#phone2').val(), phone3: $('#phone3').val(), message2: $('#message2').val() } );
+				 /* Alerts the results */
+				 posting.done(function( data ) {
+					document.getElementById("successmessage").innerHTML = "Your enquiry has been sent successfully";
+					$("#successmessage2").css("display", "none");
+					 $("#successmessage").css("display", "block");
+					 var form = document.getElementById("formS");
+						 form.reset();
+				 });
+			}
 	 	});
 	</script> 
 	<script type="text/javascript">

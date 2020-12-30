@@ -401,8 +401,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                      <p class="sub-title"></p>
                      <p class="title">What we do:</p>
                      <div class="text">
-                         <p> Our goal is helping you back to health. With experienced staff who care, we look after patients who have often had long and complicated medical histories, and also help those who may have just found themselves as suffering from difficult conditions. </p>
-<p>Regardless of your history, we are ready to help. With resources like physical therapy, , cardiology, speech therapy, respiratory therapy, nephrology, hemodialysis, nutrition, as well as the skills of our Hospitalists and Nursing Care Team, we are prepared to help you get back to health!
+                         <p> Our goal is to help you back to health. With experienced staff who care, we look after patients who have often had long and complicated medical histories and also help those who may have just found themselves suffering from difficult conditions. </p>
+<p>Regardless of your history, we are ready to help. With resources like physical therapy, cardiology, speech therapy, respiratory therapy, nephrology, hemodialysis, nutrition, as well as the skills of our Hospitalists and Nursing Care Team, we are prepared to help you get back to health!
 
 
                        </p>

@@ -11,6 +11,9 @@ $ph2 = trim($_POST["phone2"]);
 $ph3 = trim($_POST["phone3"]);
 
 include '../db.php';
+// include "../mailer/vendor/autoload.php";
+
+// use PHPMailer\PHPMailer\PHPMailer;
 
 //if($a != "" OR $b != ""){
 if(($a != NULL AND $b != NULL AND $c != NULL AND $d != NULL) && ((strlen($a)<=20) && (strlen($b)<=20) && (strlen($c)<=50) && (strlen($ph1)==3) && (strlen($ph2)==3) && (strlen($ph3)==4) ) ){
@@ -21,7 +24,7 @@ if(($a != NULL AND $b != NULL AND $c != NULL AND $d != NULL) && ((strlen($a)<=20
 	$message2 = $_POST["message2"];
 	$Fullname = $name . " " . $lastname;
 	// $location = $_POST["location"];
-
+		// $phone = $_POST["phone1"] . $_POST["phone2"] . $_POST["phone3"];   
 	$subject ="Contact Request " . $name;
 	$headers  = 'MIME-Version: 1.0' . "\r\n";
 	$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
@@ -64,7 +67,7 @@ if(($a != NULL AND $b != NULL AND $c != NULL AND $d != NULL) && ((strlen($a)<=20
 	                 
 	                 
 	               </table>";  
-		   		$phone = $_POST["phone1"] . $_POST["phone2"] . $_POST["phone3"];       
+		   		    
 				mail("info@cmclancaster.com, seo@gmicro.us, content@gmicro.us", $subject, $message, $headers);
 				// mail("laravel@gmicro.us", $subject, $message, $headers);
 				mysqli_query($conn1,"INSERT INTO leads (id, fname, lname, email, message, business_phone, preferred_contact, topic, origine_from, lead_type, created_by, created_at, updated_by, updated_at, deleted_at, deleted_by) 
@@ -77,6 +80,14 @@ if(($a != NULL AND $b != NULL AND $c != NULL AND $d != NULL) && ((strlen($a)<=20
 	}
 	else{
 		echo "Submit fail";
+		echo $a;
+		echo $a
+		echo $b
+		echo $c
+		echo $d
+		echo $ph1
+		echo $ph2
+		echo $ph3
 		}
 	
 ?>

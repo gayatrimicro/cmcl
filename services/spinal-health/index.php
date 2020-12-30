@@ -348,7 +348,7 @@ The physicians and nurses at CMCL have the expertise and experience to provide y
 <p class="title">SPINAL HEALTH</p>
                      <p class="sub-title">
                        
-                     <p>Our team of spine health specialists have advanced training and standards that have elevated them to some of the best in their field. Consisting of neurosurgeons and orthopedic spine surgeons, the specialists at CMCL can perform a number of surgeries to help reduce and/or relieve pain and increase function.</p> 
+                     <p>Our team of spine health specialists has advanced training and standards that have elevated them to some of the best in their field. Consisting of neurosurgeons and orthopedic spine surgeons, the specialists at CMCL can perform many surgeries to help reduce and/or relieve pain and increase function.</p> 
                      </p><br>
                      <p class="title">THE MOST COMMON SPINAL HEALTH PROCEDURES WE PERFORM ARE:</p>
                      <div class="text">

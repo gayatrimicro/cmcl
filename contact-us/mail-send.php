@@ -83,7 +83,7 @@ $mail->addAddress("content@gmicro.us", "IT Team");
 // $mail->addAddress("seo@gmicro.us", "IT Team");
 	// var_dump($_POST);
 	// exit();
-$mail->isSMTP();                                            // Send using SMTP
+// $mail->isSMTP();                                            // Send using SMTP
 $mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
 $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
 $mail->Username   = 'fe@gmicro.us';                     // SMTP username

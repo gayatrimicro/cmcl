@@ -486,7 +486,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                      <p class="sub-title"></p>
                      <p class="title">Specialty Clinic</p>
                      <div class="text">
-                         <p>Crescent Medical Center Lancaster’s multi-specialty clinic serves a wide range of medical needs, while delivering expert care with respect and compassion. The clinic specializes in gastroenterology, wound care management, and sleep medicine; collaborating with referring physicians to achieve optimum care results for our patients. Our Specialty Clinic can assist a patient in renewing their state of health with an initial consultation, testing, and follow up visits; as an outlook on great health. </p>
+                         <p>Crescent Medical Center Lancaster’s multi-specialty clinic serves a wide range of medical needs while delivering expert care with respect and compassion. The clinic specializes in gastroenterology, wound care management, and sleep medicine; collaborating with referring physicians to achieve optimum care results for our patients. Our Specialty Clinic can assist a patient in renewing their state of health with an initial consultation, testing, and follow-up visits; as an outlook on great health. </p>
 <p>The Specialty Clinic is staffed with physician experts. The clinic staff includes a team of trained physician assistants and licensed vocational nurses. There is a wide range of health services offered:
 </p>
 <ul>

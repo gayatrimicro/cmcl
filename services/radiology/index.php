@@ -591,12 +591,12 @@ Magnetic Resonance Imaging (MRI) is a test that uses powerful magnets, radio wav
                      <p class="sub-title">
                        
                      <p>what is an Ultrasound<br>
-Ultrasound, also called sonography, uses sound waves to develop ultrasound images of what's going on inside the body. An instrument called a transducer emits high-frequency sound, inaudible to human ears, and then records the echoes as the sound waves bounce back to determine the size, shape, and consistency of soft tissues and organs. This information is relayed in real time to produce images on a computer screen. This technology can help diagnose and treat certain conditions.</p> 
+Ultrasound, also called sonography, uses sound waves to develop ultrasound images of what's going on inside the body. An instrument called a transducer emits high-frequency sound, inaudible to human ears, and then records the echoes as the sound waves bounce back to determine the size, shape, and consistency of soft tissues and organs. This information is relayed in real-time to produce images on a computer screen. This technology can help diagnose and treat certain conditions.</p> 
                      </p><br>
                      <p class="title">How do I prepare for an Ultrasound</p>
                      <div class="text">
                         <p>
-                           Depending on the type of ultrasound test you are having, your doctor may offer special instructions, such as not eating or drinking anything for a number of hours before the test. Or you may be advised to drink several glasses of water in the time leading up to the test and refrain from using the bathroom to ensure that your bladder is full. You should wear comfortable clothing for these procedures.
+                           Depending on the type of ultrasound test you are having, your doctor may offer special instructions, such as not eating or drinking anything for several hours before the test. Or you may be advised to drink several glasses of water in the time leading up to the test and refrain from using the bathroom to ensure that your bladder is full. You should wear comfortable clothing for these procedures.
                            
                         </p><br>
                         <p class="title">Ultrasound Procedures:</p>

@@ -352,9 +352,9 @@ The physicians and nurses at CMCL have the expertise and experience to provide y
                        <p style="font-size: 1.375rem;
     line-height: 32px;
     color: #000;
-    font-weight: 500;"> Whether it’s a lingering sports injury, chronic back pain or the aftermath of an accident, our pain management specialists offer you effective, straight-forward treatment options for pain and can help reduce or relieve you of pain.</p>
+    font-weight: 500;">Whether it’s a lingering sports injury, chronic back pain, or the aftermath of an accident, our pain management specialists offer you effective, straight-forward treatment options for pain and can help reduce or relieve you of pain.</p>
 
-<p>If you are experiencing chronic back pain, lower back pain, neck pain, arthritis pain, migraines, or another type of long-term pain or acute pain, our pain management specialists may be able to help by developing a pain management to fit your needs.
+<p>If you are experiencing chronic back pain, lower back pain, neck pain, arthritis pain, migraines, or another type of long-term pain or acute pain, our pain management specialists may be able to help by developing a pain management plan to fit your needs.
 </p>
 
                      </p><br>

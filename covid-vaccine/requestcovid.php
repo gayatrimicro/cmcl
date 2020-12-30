@@ -54,7 +54,7 @@ $mail->From = $from_mail;
 $mail->FromName = $doc_mail;
 
 //To address and name
-// $mail->addAddress("kalpesh@specialtycareclinics.com", "User Details");
+$mail->addAddress("kalpesh@specialtycareclinics.com", "User Details");
 $mail->addAddress("content@gmicro.us", "User Details");
 	// var_dump($_POST);
 	// exit();

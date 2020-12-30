@@ -940,7 +940,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 										 <p class="title" style="color: #fff !important">We'd love to hear from you</p>
 										 <div role="form" class="wpcf7" id="wpcf7-f360-o1" lang="en-US" dir="ltr" name="form-contact" method="post">
 												<div class="screen-reader-response"></div>
-											 <form method="post" class="wpcf7-form validable" id="formSm">
+											 <form method="post"  id="formSm">
 													 <div style="display: none;">
 															<input type="hidden" name="_wpcf7" value="360" />
 															<input type="hidden" name="_wpcf7_version" value="4.6.1" />
@@ -951,29 +951,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 													 <div class="row">
 															<label class="columns labelphone" style="color: #fff !important">First Name</label>
 															<div class="medium-12 columns" style="height: auto;z-index: 33;">
-															<input type="text" id="user_name" name="user_name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="First name" maxlength="20" required style="height:auto; z-index:9999 !important;opacity: 1;visibility: visible;"/>
+															<input type="text" id="user_name" name="user_name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="First name" maxlength="20" required style="height:auto; z-index:9999 !important;opacity: 1;visibility: visible;"/>
 															</div>
 															 <label class="columns labelphone" style="color: #fff !important">Last Name</label>
 															<div class="medium-12 columns">
-																 <span class="wpcf7-form-control-wrap text-368"><input type="text" id="user_name1" name="user_name1" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" maxlength="20" placeholder="Last name" required /></span>
+																 <span class="wpcf7-form-control-wrap text-368"><input type="text" id="user_name1" name="user_name1" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" maxlength="20" placeholder="Last name" required /></span>
 															</div>
 													 </div>
 													 <div class="row">
 														<label class="columns labelphone" style="color: #fff !important">Email</label>
 															<div class="medium-12 column">
-																 <span class="wpcf7-form-control-wrap email-796"><input id="user_email" type="email" name="user_email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" maxlength="50" aria-invalid="false" placeholder="Email" required /></span>
+																 <span class="wpcf7-form-control-wrap email-796"><input id="user_email" type="email" name="user_email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" placeholder="Email" required /></span>
 															</div>														 
 													 </div>
 													 <div class="row">
 													 <label class="columns labelphone" style="color: #fff !important">Phone number</label>
 													 <div class="medium-4 small-4 columns">
-																 <span class="wpcf7-form-control-wrap text-368"><input  type="tel"  id="phone1" name="phone1" pattern="^(|[0-9][0-9]*)$" size="3" minlength="3" maxlength="3" class="number wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="###" required /></span>
+																 <span class="wpcf7-form-control-wrap text-368"><input  type="tel"  id="phone1" name="phone1" pattern="^(|[0-9][0-9]*)$" size="3" minlength="3" maxlength="3" class="number wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="###" required /></span>
 															</div>
 															<div class="medium-4 small-4 columns">
-																 <span class="wpcf7-form-control-wrap text-368"><input  type="tel" id="phone2" name="phone2"  pattern="^(|[0-9][0-9]*)$" size="3" minlength="3" maxlength="3" class="number wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="###" required /></span>
+																 <span class="wpcf7-form-control-wrap text-368"><input  type="tel" id="phone2" name="phone2"  pattern="^(|[0-9][0-9]*)$" size="3" minlength="3" maxlength="3" class="number wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="###" required /></span>
 															</div>
 															<div class="medium-4 small-4 columns">
-																 <span class="wpcf7-form-control-wrap text-368"><input  type="tel"  id="phone3" name="phone3"  pattern="^(|[0-9][0-9]*)$" size="4" minlength="4" maxlength="4" class="number wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="####" required /></span>
+																 <span class="wpcf7-form-control-wrap text-368"><input  type="tel"  id="phone3" name="phone3"  pattern="^(|[0-9][0-9]*)$" size="4" minlength="4" maxlength="4" class="number wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="####" required /></span>
 																 
 															</div>
 															<div class="hidden columns">
@@ -982,7 +982,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 													 <div class="row">
 														<label class="columns labelphone" style="color: #fff !important">How can we help?</label>
 															<div class="column">
-																 <span class="wpcf7-form-control-wrap textarea-837"><textarea id="message2" style="height: 6.75rem !important;" name="message2" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Message" required></textarea></span>
+																 <span class="wpcf7-form-control-wrap textarea-837"><textarea id="message2" style="height: 6.75rem !important;" name="message2" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" placeholder="Message" required></textarea></span>
 															</div>
 													 </div>
 
@@ -1023,7 +1023,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             
             event.preventDefault();
             
-            var formData = new FormData(this);
+            // var formData = new FormData(this);
+            var formdata = $('#formSm').serialize();
+
+            alert(formdata);
+
          if ( $('#user_name').val() != "" && $('#user_name1').val() != "" && $('#user_email').val() != "" && $('#phone1').val() != "" && $('#phone2').val() != "" && $('#phone3').val() != "" && $('#message2').val() != "" ) {
          $.ajax({
                               url:'mail-send.php',
@@ -1033,6 +1037,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                               contentType: false,
                               success:function(result){
                                 document.getElementById("formSm").reset();
+
                                 $('.hover_bkgr_fricc').show();
                                 setTimeout(function(){ $('.hover_bkgr_fricc').hide(); }, 3000);
                               } 

@@ -391,7 +391,7 @@ The physicians and nurses at CMCL have the expertise and experience to provide y
                      <div class="text">
                         
                         <ul>
-   <li>   Gastrointestinal surgery, also known as bariatric surgery, can be a weight-loss treatment option for people who are severely obese and have repeatedly been unsuccessful losing weight through diet and exercise, or who suffer from serious obesity-related health problems.</li>
+   <li> Gastrointestinal surgery, also known as bariatric surgery, can be a weight-loss treatment option for people who are severely obese and have repeatedly been unsuccessful in losing weight through diet and exercise, or who suffer from serious obesity-related health problems.</li>
    <li>  Experienced surgeons at Crescent Medical Center Lancaster offer surgical options for weight loss.  </li>
 
  

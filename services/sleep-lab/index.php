@@ -440,14 +440,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                        <p>  <ul>
 <li>Try to follow your regular routine.</li>
 <li>Avoid napping.</li>
-<li>Eliminate use of caffeine and other stimulants after lunch.</li>
+<li>Eliminate the use of caffeine and other stimulants after lunch.</li>
 <li>Remove nail polish. You will be wearing a pulse oximeter on one index finger.</li>
 <li>Avoid using hair products that can interfere with sleep recording.</li>
 <li>Avoid using oils and lotions.</li>
 </ul>
 </p>
 <p>
-You may be advised to limit the use of tobacco products prior to your sleep study. If you are on regular medication, please notify the sleep medicine physician. Some medicines can affect the sleep study results, so the doctor may recommend for you to temporarily discontinue using medication.
+You may be advised to limit the use of tobacco products before your sleep study. If you are on regular medication, please notify the sleep medicine physician. Some medicines can affect the sleep study results, so the doctor may recommend for you to temporarily discontinue using medication.
 
                        </p>
 
@@ -527,7 +527,7 @@ You may be advised to limit the use of tobacco products prior to your sleep stud
                         <p>
 Once you have become settled in your room, you will be asked to complete some paperwork and change into your bedclothes. The sleep technologist will apply sensors and electrodes to your scalp, face, chest, limbs, and finger. This process will take about an hour. Please be patients and take directions from your technologist. Once the sensors and equipment are in place, you will be able to walk around and use the restroom without assistance.</p>
 <p>While you sleep the sensors record your brain activity, eye movements, heart rate, blood pressure, and blood oxygen levels. Elastic belts are placed around your chest and belly. These are used to measure chest movements, as well as strength and duration of inhalation and exhalation.</p>
-<p>Your technologist will administrate the study from another room, where there is a computer recording the data form your sensors. Sleeping with equipment might be a little uncomfortable, but your technologist will do everything they can to ensure you are as comfortable as possible. 
+<p>Your technologist will administrate the study from another room, where there is a computer recording the data from your sensors. Sleeping with equipment might be a little uncomfortable, but your technologist will do everything they can to ensure you are as comfortable as possible. 
 
                      </p>
 

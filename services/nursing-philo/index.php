@@ -307,9 +307,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                      <div class="text">
                         <p>
 
-<p>Our nurses work as a collaborative team to endorse a family-centered approach to care. As a team, we focus on patient/family and physician satisfaction and are empowered to identify and immediately improve the patient/family or physician experience. We are doing our part in providing a peaceful, quiet healing environment, striving to anticipate the needs of each patient, and conducting him/herself in a way which keeps the focus on the patient.</p><br>
+<p>Our nurses work as a collaborative team to endorse a family-centered approach to care. As a team, we focus on patient/family and physician satisfaction and are empowered to identify and immediately improve the patient/family or physician experience. We are doing our part in providing a peaceful, quiet healing environment, striving to anticipate the needs of each patient, and conducting him/herself in a way that keeps the focus on the patient.</p><br>
 
-<p>Nursing is a life-long learning profession.   In order to promote a learning environment, members of the nursing staff are encouraged to actively participate in the nursing council, where they address staffing models, nursing quality indicators, and evaluate evidence-based techniques.
+<p>Nursing is a life-long learning profession. To promote a learning environment, members of the nursing staff are encouraged to actively participate in the nursing council, where they address staffing models, nursing quality indicators, and evaluate evidence-based techniques.
 </p>
 
                      </div>

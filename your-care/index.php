@@ -452,26 +452,10 @@ your care.</p>
                      <p class="sub-title"></p>
                    
                      <div class="text">
-                         <p>Crescent Medical Center Lancaster is a DNV-GL (Det Norske
-Veritas) Healthcare accredited organization
-offering patient focused care in a family oriented
-environment. Whether you are visiting for
-emergency care, a surgical procedure or admitted;
-our staff and physicians are dedicated to making
-your visit as pleasant, comfortable, and successful
-as possible!</p>
-<p>We are in network with Medicare, Medicaid, most
-private insurances, and accept self-pay patients.
-We feature 8 Intensive Care Unit beds, 20
-Medical Surgical/Telemetry beds, 10 Emergency
-Department beds, 4 state-of-the-art operating
-suites, 4 VIP suites, 4 sleep lab suites, a
-cystoscopy suite, and 2 procedure rooms for Pain
-Management and Endoscopy.</p>
-<p>We also have an extensive outpatient department
-with Laboratory services and a Radiology imaging
-center that is equipped with high-definition MRI
-scans, CT and digital X-ray services.
+                         <p>Crescent Medical Center Lancaster is a DNV-GL (Det Norske Veritas) Healthcare accredited organization offering patient-focused care in a family-oriented environment. Whether you are visiting for emergency care, a surgical procedure, or admitted; our staff and physicians are dedicated to making your visit as pleasant, comfortable, and successful as possible!</p>
+                          <p>We are in-network with Medicare, Medicaid, most private insurances, and accept self-pay patients. We feature 8 Intensive Care Unit beds, 20 Medical-Surgical/Telemetry beds, 10 Emergency Department beds, 4 state-of-the-art operating suites, 4 VIP suites, 4 sleep lab suites, a cystoscopy suite, and 2 procedure rooms for Pain Management and Endoscopy.</p>
+                          <p>We also have an extensive outpatient department with Laboratory services and a Radiology imaging center that is equipped with high-definition MRI scans, CT, and digital X-ray services.
+
 </p>
                        
                         
